@@ -17,7 +17,7 @@ export default function JavaMethodsPage() {
       <p className="text-gray-700 mb-4">
         Syntax of a Java method:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`modifier static returnType methodName(parameter1, parameter2, ...) {
     // method body
 }`}
@@ -26,7 +26,7 @@ export default function JavaMethodsPage() {
       <p className="text-gray-700 mb-4">
         Example: Method to add two numbers:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   public int addNumbers(int a, int b) {
     return a + b;
@@ -38,12 +38,13 @@ export default function JavaMethodsPage() {
     System.out.println("Sum is: " + sum);
   }
 }`}</pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6"><strong>Output:</strong> Sum is: 40</p>
+<h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto"><strong>Output:</strong> Sum is: 40</p>
 
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Method Return Type
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`public static int square(int num) {
     return num * num;
 }
@@ -53,12 +54,13 @@ public static void main(String[] args) {
     System.out.println("Squared value of 10 is: " + result);
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6"><strong>Output:</strong> Squared value of 10 is: 100</p>
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto"><strong>Output:</strong> Squared value of 10 is: 100</p>
 
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Method Parameters
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   public void display1() {
     System.out.println("Method without parameter");
@@ -75,7 +77,8 @@ public static void main(String[] args) {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong>
         <br />Method without parameter
         <br />Method with a single parameter: 24
@@ -87,14 +90,15 @@ public static void main(String[] args) {
       <p className="text-gray-700 mb-4">
         Java provides built-in methods like <code>Math.sqrt()</code> or <code>System.out.print()</code>. You can use them without defining your own method.
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`public class Main {
   public static void main(String[] args) {
     System.out.print("Square root of 4 is: " + Math.sqrt(4));
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6"><strong>Output:</strong> Square root of 4 is: 2.0</p>
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto"><strong>Output:</strong> Square root of 4 is: 2.0</p>
 
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Advantages of Methods
@@ -105,7 +109,7 @@ public static void main(String[] args) {
       </ul>
 
       <p className="text-gray-700 mb-4">Example: Using a method for code reusability:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`public class Main {
   private static int getSquare(int x){
     return x * x;
@@ -119,7 +123,8 @@ public static void main(String[] args) {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong>
         <br />Square of 1 is: 1
         <br />Square of 2 is: 4

@@ -53,7 +53,7 @@ export default function JavaStackClass(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`Stack<Type> stacks = new Stack<>();`}</code>
+        <code className="java hljs text-black-700">{`Stack<Type> stacks = new Stack<>();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -61,7 +61,7 @@ export default function JavaStackClass(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// Create Integer type stack
+        <code className="java hljs text-black-700">{`// Create Integer type stack
 Stack<Integer> stacks = new Stack<>();
 
 // Create String type stack
@@ -90,7 +90,7 @@ Stack<String> stacks = new Stack<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Stack;
+          <code className="java hljs text-black-700">{`import java.util.Stack;
 
 class Main {
     public static void main(String[] args) {
@@ -123,7 +123,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Stack;
+          <code className="java hljs text-black-700">{`import java.util.Stack;
 
 class Main {
     public static void main(String[] args) {
@@ -160,7 +160,7 @@ Removed Element: Cat`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Stack;
+          <code className="java hljs text-black-700">{`import java.util.Stack;
 
 class Main {
     public static void main(String[] args) {
@@ -202,7 +202,7 @@ Element at top: Cat`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Stack;
+          <code className="java hljs text-black-700">{`import java.util.Stack;
 
 class Main {
     public static void main(String[] args) {
@@ -239,7 +239,7 @@ Position of Horse: 2`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Stack;
+          <code className="java hljs text-black-700">{`import java.util.Stack;
 
 class Main {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ export default function JavaCopyArraysContent() {
       <div className="content space-y-4">
 
         <p>
-          In Java, we can copy one <a href="/java-programming/arrays" className="text-blue-600 underline">array</a> into another. There are several techniques you can use to copy arrays in Java.
+          In Java, we can copy one array into another. There are several techniques you can use to copy arrays in Java.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -14,7 +14,7 @@ export default function JavaCopyArraysContent() {
 
         <p>Let's take an example,</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`class Main {
     public static void main(String[] args) {
        
@@ -29,7 +29,7 @@ export default function JavaCopyArraysContent() {
         </pre>
 
         <p><strong>Output</strong>:</p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>1, 2, 3, 4, 5, 6</code>
         </pre>
 
@@ -37,7 +37,7 @@ export default function JavaCopyArraysContent() {
           This technique is the easiest one and it works as well. However, there is a problem with this technique. If we change elements of one array, corresponding elements of the other arrays also change. For example,
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`class Main {
     public static void main(String[] args) {
       
@@ -56,7 +56,7 @@ export default function JavaCopyArraysContent() {
         </pre>
 
         <p><strong>Output</strong>:</p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>-1, 2, 3, 4, 5, 6</code>
         </pre>
 
@@ -70,7 +70,7 @@ export default function JavaCopyArraysContent() {
 
         <p>Let's take an example:</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`import java.util.Arrays;
 
 class Main {
@@ -91,7 +91,7 @@ class Main {
         </pre>
 
         <p><strong>Output</strong>:</p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>[1, 2, 3, 4, 5, 6]</code>
         </pre>
 
@@ -105,7 +105,7 @@ class Main {
 
         <p>The <code>System.arraycopy()</code> method copies a specified portion of the source array to the destination array. Syntax:</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">arraycopy(Object src, int srcPos, Object dest, int destPos, int length)</code>
         </pre>
 
@@ -119,7 +119,7 @@ class Main {
 
         <p>Example:</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`import java.util.Arrays;
 
 class Main {
@@ -141,7 +141,7 @@ class Main {
         </pre>
 
         <p><strong>Output</strong>:</p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>{`n2 = [2, 3, 12, 4, 12, -2]
 n3 = [0, 12, 4, 0, 0]`}</code>
         </pre>
@@ -152,7 +152,7 @@ n3 = [0, 12, 4, 0, 0]`}</code>
 
         <p>This method from <code>java.util.Arrays</code> copies a range of elements from an array to a new array.</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`import java.util.Arrays;
 
 class ArraysCopy {
@@ -170,7 +170,7 @@ class ArraysCopy {
         </pre>
 
         <p><strong>Output</strong></p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>{`destination1 = [2, 3, 12, 4, 12, -2]
 destination2 = [12, 4, 12]`}</code>
         </pre>
@@ -181,7 +181,7 @@ destination2 = [12, 4, 12]`}</code>
 
         <p>We can copy 2-dimensional arrays similarly using loops.</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`import java.util.Arrays;
 
 class Main {
@@ -212,7 +212,7 @@ class Main {
         </pre>
 
         <p><strong>Output</strong>:</p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">{`[[1, 2, 3, 4], [5, 6], [0, 2, 42, -4, 5]]`}</pre>
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`[[1, 2, 3, 4], [5, 6], [0, 2, 42, -4, 5]]`}</pre>
 
         <hr className="my-6 border-gray-300" />
 
@@ -220,7 +220,7 @@ class Main {
 
         <p>You can simplify the inner loop by using <code>System.arraycopy()</code> as follows:</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`import java.util.Arrays;
 
 class Main {
@@ -247,7 +247,7 @@ class Main {
         </pre>
 
         <p><strong>Output</strong>:</p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">{`[[1, 2, 3, 4], [5, 6], [0, 2, 42, -4, 5]]`}</pre>
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`[[1, 2, 3, 4], [5, 6], [0, 2, 42, -4, 5]]`}</pre>
 
       </div>
     </div>

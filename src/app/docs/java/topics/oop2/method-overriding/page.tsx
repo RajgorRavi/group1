@@ -23,7 +23,7 @@ export default function JavaMethodOverridingPage() {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
   public void displayInfo() {
     System.out.println("I am an animal.");
   }
@@ -137,7 +137,7 @@ class Main {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
   public void displayInfo() {
     System.out.println("I am an animal.");
   }
@@ -224,7 +224,7 @@ I am a dog.`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
   protected void displayInfo() {
     System.out.println("I am an animal.");
   }

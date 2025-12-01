@@ -14,7 +14,7 @@ export default function JavaThisKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         1. Reference to Current Object
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
     int instVar;
 
@@ -36,7 +36,7 @@ export default function JavaThisKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         2. Resolving Ambiguity Between Parameters and Instance Variables
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
     int age;
     Main(int age){
@@ -53,7 +53,7 @@ export default function JavaThisKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         3. Using <code>this</code> in Getters and Setters
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
     String name;
 
@@ -76,7 +76,7 @@ export default function JavaThisKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         4. Using <code>this()</code> to Call Another Constructor
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Complex {
     private int a, b;
 
@@ -116,7 +116,7 @@ export default function JavaThisKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         5. Passing <code>this</code> as an Argument
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class ThisExample {
     int x, y;
 

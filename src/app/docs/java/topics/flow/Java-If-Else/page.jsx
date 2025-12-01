@@ -83,12 +83,12 @@ export default function JavaIfElseStatementContent() {
         </p>
 
         <div className="bg-yellow-100 p-4 rounded-lg border border-yellow-300">
-          <strong>Note:</strong> If you want to learn more about about test conditions, visit <a href="/java-programming/operators#relational" className="text-blue-600 underline">Java Relational Operators</a> and <a href="/java-programming/operators#logical" className="text-blue-600 underline">Java Logical Operators</a>.
+          <strong>Note:</strong> If you want to learn more about about test conditions, visit <a href="/docs/java/topics/Java-Fundamentals/Java-Operators" className="text-blue-600 underline">Java Relational Operators</a> and <a href="/docs/java/topics/Java-Fundamentals/Java-Operators" className="text-blue-600 underline">Java Logical Operators</a>.
         </div>
 
         <hr className="my-6 border-gray-300" />
 
-        <p>We can also use <a href="/java-programming/string" className="text-blue-600 underline">Java Strings</a> as the test condition.</p>
+        <p>We can also use <a href="/docs/java/topics/oop1/string" className="text-blue-600 underline">Java Strings</a> as the test condition.</p>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Example 2: Java if with String</h3>
 
@@ -272,7 +272,7 @@ else {
         <pre className="bg-gray-100 p-3 rounded overflow-auto"><code>The number is 0.</code></pre>
 
         <p>
-          In the above example, we are checking whether <var>number</var> is <a href="/java-programming/examples/positive-negative" className="text-blue-600 underline">positive, negative, or zero</a>. Here, we have two condition expressions:
+          In the above example, we are checking whether <var>number</var> is positive, negative, or zero. Here, we have two condition expressions:
         </p>
 
         <ul className="list-disc list-inside">
@@ -283,7 +283,7 @@ else {
         <p>Here, the value of <var>number</var> is <var>0</var>. So both the conditions evaluate to <code>false</code>. Hence the statement inside the body of <code>else</code> is executed.</p>
 
         <div className="bg-yellow-100 p-4 rounded-lg border border-yellow-300">
-          <strong>Note</strong>: Java provides a special operator called <strong>ternary operator</strong>, which is a kind of shorthand notation of <strong>if...else...if</strong> statement. To learn about the ternary operator, visit <a href="/java-programming/ternary-operator" className="text-blue-600 underline">Java Ternary Operator</a>.
+          <strong>Note</strong>: Java provides a special operator called <strong>ternary operator</strong>, which is a kind of shorthand notation of <strong>if...else...if</strong> statement. To learn about the ternary operator, visit <a href="/docs/java/topics/Java-Fundamentals/Java-Operators" className="text-blue-600 underline">Java Ternary Operator</a>.
         </div>
 
         <hr className="my-6 border-gray-300" />
@@ -340,7 +340,7 @@ else {
         <pre className="bg-gray-100 p-3 rounded overflow-auto"><code>Largest Number: 4.5</code></pre>
 
         <p>
-          In the above programs, we have assigned the value of <a href="/java-programming/variables-literals" className="text-blue-600 underline">variables</a> ourselves to make this easier.
+          In the above programs, we have assigned the value of <a href="/docs/java/topics/Java-Fundamentals/Java-variables-and-Literals" className="text-blue-600 underline">variables</a> ourselves to make this easier.
         </p>
 
         <p>

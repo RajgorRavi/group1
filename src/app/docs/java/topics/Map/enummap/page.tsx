@@ -14,7 +14,7 @@ export default function EnumMapPage() {
       <p className="text-gray-700">
         Import the <a href="/docs/java/topics/oop3/package" className="text-blue-600 ">package</a> first and create an EnumMap:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`enum Size {
     SMALL, MEDIUM, LARGE, EXTRALARGE
 }
@@ -33,7 +33,7 @@ EnumMap<Size, Integer> sizes = new EnumMap<>(Size.class);`}
         <li><code>putAll()</code> - inserts all entries from another map</li>
       </ul>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`EnumMap<Size, Integer> sizes1 = new EnumMap<>(Size.class);
 sizes1.put(Size.SMALL, 28);
 sizes1.put(Size.MEDIUM, 32);
@@ -45,14 +45,14 @@ sizes2.put(Size.LARGE, 36);`}
 
       <h3 className="text-xl font-semibold mt-4 text-black">Access EnumMap Elements</h3>
       <p className="text-gray-700">Using <code>entrySet()</code>, <code>keySet()</code>, and <code>values()</code>:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`System.out.println("Key/Value mappings: " + sizes.entrySet());
 System.out.println("Keys: " + sizes.keySet());
 System.out.println("Values: " + sizes.values());`}
       </pre>
 
       <p className="text-gray-700">Using <code>get(key)</code>:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`int value = sizes.get(Size.MEDIUM);
 System.out.println("Value of MEDIUM: " + value);`}
       </pre>
@@ -70,7 +70,7 @@ System.out.println("Value of MEDIUM: " + value);`}
         <li><code>replaceAll(function)</code> - replaces all values using a function</li>
       </ul>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`sizes.replace(Size.MEDIUM, 30);
 sizes.replace(Size.LARGE, 36, 34);
 sizes.replaceAll((key, oldValue) -> oldValue + 3);`}

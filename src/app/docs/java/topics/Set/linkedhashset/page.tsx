@@ -42,7 +42,7 @@ export default function JavaLinkedHashSet(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// LinkedHashSet with 8 capacity and 0.75 load factor
+        <code className="java hljs text-black-700">{`// LinkedHashSet with 8 capacity and 0.75 load factor
 LinkedHashSet<Integer> numbers = new LinkedHashSet<>(8, 0.75);`}</code>
       </pre>
 
@@ -61,7 +61,7 @@ LinkedHashSet<Integer> numbers = new LinkedHashSet<>(8, 0.75);`}</code>
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// LinkedHashSet with default capacity and load factor
+        <code className="java hljs text-black-700">{`// LinkedHashSet with default capacity and load factor
 LinkedHashSet<Integer> numbers1 = new LinkedHashSet<>();`}</code>
       </pre>
 
@@ -79,7 +79,7 @@ LinkedHashSet<Integer> numbers1 = new LinkedHashSet<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 import java.util.ArrayList;
 
 class Main {
@@ -130,7 +130,7 @@ LinkedHashSet: [2, 4]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -172,7 +172,7 @@ New LinkedHashSet: [2, 4, 6, 5]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 import java.util.Iterator;
 
 class Main {
@@ -226,7 +226,7 @@ LinkedHashSet using Iterator: 2, 5, 6,
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -276,7 +276,7 @@ Are all elements removed? true
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -318,7 +318,7 @@ Union is: [1, 3, 2, 4]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -360,7 +360,7 @@ Intersection is: [2]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -404,7 +404,7 @@ Difference: [2]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedHashSet;
+          <code className="java hljs text-black-700">{`import java.util.LinkedHashSet;
 
 class Main {
     public static void main(String[] args) {

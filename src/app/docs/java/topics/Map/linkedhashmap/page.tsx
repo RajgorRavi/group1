@@ -15,7 +15,7 @@ export default function LinkedHashMapPage() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Creating a LinkedHashMap
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// LinkedHashMap with initial capacity 8 and load factor 0.6
 LinkedHashMap<Key, Value> numbers = new LinkedHashMap<>(8, 0.6f);
 
@@ -35,7 +35,7 @@ LinkedHashMap<Key, Value> numbers2 = new LinkedHashMap<>(capacity, loadFactor, a
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Creating LinkedHashMap from Other Maps
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`LinkedHashMap<String, Integer> evenNumbers = new LinkedHashMap<>();
 evenNumbers.put("Two", 2);
 evenNumbers.put("Four", 4);
@@ -59,7 +59,7 @@ numbers.put("Three", 3);`}
       <p className="text-gray-700 mb-2">
         Using <code>entrySet()</code>, <code>keySet()</code>, <code>values()</code>, <code>get()</code>, and <code>getOrDefault()</code>:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`LinkedHashMap<String, Integer> numbers = new LinkedHashMap<>();
 numbers.put("One", 1);
 numbers.put("Two", 2);
@@ -78,7 +78,7 @@ int val2 = numbers.getOrDefault("Five", 5);`}
         <li><code>remove(key)</code> - removes entry by key</li>
         <li><code>remove(key, value)</code> - removes entry only if key maps to value</li>
       </ul>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`int removedValue = numbers.remove("Two");
 boolean removed = numbers.remove("Three", 3);`}
       </pre>

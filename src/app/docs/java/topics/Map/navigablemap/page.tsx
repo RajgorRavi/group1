@@ -20,7 +20,7 @@ export default function NavigableMapPage() {
       <p className="text-gray-700">
         First, import the package:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// NavigableMap implementation by TreeMap class
 NavigableMap<Key, Value> numbers = new TreeMap<>();`}
       </pre>
@@ -62,7 +62,7 @@ NavigableMap<Key, Value> numbers = new TreeMap<>();`}
       </ul>
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Implementation of NavigableMap in TreeMap</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`import java.util.NavigableMap;
 import java.util.TreeMap;
 

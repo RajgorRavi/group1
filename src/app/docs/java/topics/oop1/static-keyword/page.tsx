@@ -14,7 +14,7 @@ export default function JavaStaticKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example: Static Methods and Variables (Math Class)
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`public class Main {
     public static void main(String[] args) {
         System.out.println("Absolute value of -12 = " + Math.abs(-12));
@@ -23,7 +23,8 @@ export default function JavaStaticKeyword() {
     }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         Absolute value of -12 = 12<br />
         Value of PI = 3.141592653589793<br />
@@ -33,7 +34,7 @@ export default function JavaStaticKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Static vs Non-Static Methods
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class StaticTest {
     int multiply(int a, int b){
         return a * b;
@@ -55,7 +56,7 @@ public class Main {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Static vs Non-Static Variables
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Test {
    static int max = 10;
    int min = 5;
@@ -69,7 +70,8 @@ public class Main {
    }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-2">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         min + 1 = 6<br />
         max + 1 = 11
@@ -81,7 +83,7 @@ public class Main {
       <p className="text-gray-700 mb-4">
         Static blocks are used to initialize static variables. They execute once when the class is loaded.
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
    static int a = 23;
    static int b;
@@ -107,7 +109,8 @@ public class Main {
    }
 }`}
       </pre>
-      <p className="text-gray-700 mb-4">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         First Static block.<br />
         Second Static block.<br />
@@ -119,7 +122,7 @@ public class Main {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Nested Static Class
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class OuterClass {
     static class NestedClass {
         void display() {
@@ -143,7 +146,8 @@ public class Main {
     }
 }`}
       </pre>
-      <p className="text-gray-700 mb-4">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         Inside Static Nested Class<br />
         Inside Non-Static Inner Class

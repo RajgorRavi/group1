@@ -19,7 +19,7 @@ export default function JavaFinalKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         1. Final Variable
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   public static void main(String[] args) {
     // create a final variable
@@ -39,7 +39,7 @@ export default function JavaFinalKeyword() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         2. Final Method
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class FinalDemo {
     public final void display() {
       System.out.println("This is a final method.");
@@ -65,7 +65,7 @@ class Main extends FinalDemo {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         3. Final Class
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// final class
 final class FinalClass {
     public void display() {

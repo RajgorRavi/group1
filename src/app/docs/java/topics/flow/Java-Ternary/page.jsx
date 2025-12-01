@@ -5,7 +5,7 @@ export default function JavaTernaryOperatorContent() {
       <div className="content space-y-4">
 
         <p id="introduction">
-          In Java, a ternary <a href="/java-programming/operators" className="text-blue-600 underline">operator</a> can be used to replace the <code>if…else</code> statement in certain situations. Before you learn about the ternary operator, make sure you visit <a href="/java-programming/if-else-statement" className="text-blue-600 underline">Java if...else statement</a>.
+          In Java, a ternary <a href="/docs/java/topics/Java-Fundamentals/Java-Operators" className="text-blue-600 underline">operator</a> can be used to replace the <code>if…else</code> statement in certain situations. Before you learn about the ternary operator, make sure you visit <a href="/docs/java/topics/flow/Java-If-Else" className="text-blue-600 underline">Java if...else statement</a>.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -73,7 +73,7 @@ You fail the exam.`}</code>
         </pre>
 
         <div className="bg-yellow-100 p-4 rounded border border-yellow-300">
-          <strong>Note</strong>: To learn about expression, visit <a href="/java-programming/expressions-statements-blocks" className="text-blue-600 underline">Java Expressions</a>.
+          <strong>Note</strong>: To learn about expression, visit <a href="/docs/java/topics/Java-Fundamentals/Java-Expressions" className="text-blue-600 underline">Java Expressions</a>.
         </div>
 
         <hr className="my-6 border-gray-300" />

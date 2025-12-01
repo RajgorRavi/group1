@@ -25,7 +25,7 @@ export default function JavaRecursion() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example: Factorial Using Recursion
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Factorial {
 
     static int factorial(int n) {
@@ -45,7 +45,7 @@ export default function JavaRecursion() {
       <p className="text-black-700 mb-4">
         Output:
       </p>
-      <pre className="bg-black-100 text-gray-900 p-3 rounded-md mb-4 border border-gray-300">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 4 factorial = 24
       </pre>
 

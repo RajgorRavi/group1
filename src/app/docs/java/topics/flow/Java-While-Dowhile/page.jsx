@@ -1,3 +1,6 @@
+import Image from "next/image";
+import java_while_loop from "./java-while-loop.png"; 
+import java_do_while from "./java-do-while-loop.png"
 export default function JavaWhileDoWhileLoopContent() {
   return (
     <div className="editor-contents text-black">
@@ -9,7 +12,7 @@ export default function JavaWhileDoWhileLoopContent() {
         </p>
 
         <p>
-          In the previous tutorial, you learned about <a href="/java-programming/for-loop" className="text-blue-600 underline">Java for loop</a>. Here, you are going to learn about <code>while</code> and <code>do...while</code> loops.
+          In the previous tutorial, you learned about <a href="/docs/java/topics/flow/Java-For-Loop" className="text-blue-600 underline">Java for loop</a>. Here, you are going to learn about <code>while</code> and <code>do...while</code> loops.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -34,14 +37,14 @@ export default function JavaWhileDoWhileLoopContent() {
           <li>When the <strong>textExpression</strong> evaluates to <code>false</code>, the loop stops.</li>
         </ol>
 
-        <p>To learn more about the conditions, visit <a href="/java-programming/operators#equality-relational" className="text-blue-600 underline">Java relational</a> and <a href="/java-programming/operators#logical" className="text-blue-600 underline">logical operators</a>.</p>
+        <p>To learn more about the conditions, visit <a href="/docs/java/topics/Java-Fundamentals/Java-Operators" className="text-blue-600 underline">Java relational</a> and <a href="/docs/java/topics/Java-Fundamentals/Java-Operators" className="text-blue-600 underline">logical operators</a>.</p>
 
         <hr className="my-6 border-gray-300" />
 
         <h2 id="flowchart-while" className="text-2xl font-semibold mt-6 mb-2">Flowchart of while loop</h2>
 
         <figure>
-          <img src="/sites/tutorial2program/files/java-while-loop.png" alt="Flowchart of while loop in Java" title="Flowchart of while loop in Java" width="350" height="460" />
+          <Image src={java_while_loop} alt="Flowchart of while loop in Java" title="Flowchart of while loop in Java" width="350" height="460" />
           <figcaption>Flowchart of Java while loop</figcaption>
         </figure>
 
@@ -181,7 +184,7 @@ Sum = 39`}</code>
         </pre>
 
         <p>
-          In the above program, we have used the <a href="/java-programming/scanner" className="text-blue-600 underline">Scanner class</a> to take input from the user. Here, <code>nextInt()</code> takes integer input from the user.
+          In the above program, we have used the Scanner class to take input from the user. Here, <code>nextInt()</code> takes integer input from the user.
         </p>
 
         <p>
@@ -217,7 +220,7 @@ Sum = 39`}</code>
         <h3 id="do-while-flowchart" className="text-xl font-semibold mt-6 mb-2">Flowchart of do...while loop</h3>
 
         <figure>
-          <img src="/sites/tutorial2program/files/java-do-while-loop.png" alt="Flowchart of do...while loop in Java" title="Flowchart of do...while loop in Java" width="300" height="383" />
+          <Image src={java_do_while} alt="Flowchart of do...while loop in Java" title="Flowchart of do...while loop in Java" width="300" height="383" />
           <figcaption>Flowchart of Java do while loop</figcaption>
         </figure>
 
@@ -421,13 +424,7 @@ do {
 }`}</code>
         </pre>
 
-        <hr className="my-6 border-gray-300" />
-
-        <p><strong>Also Read:</strong></p>
-
-        <ul className="list-disc list-inside">
-          <li><a href="/java-programming/nested-loop" className="text-blue-600 underline">Nested Loop in Java</a></li>
-        </ul>
+        
 
       </div>
     </div>

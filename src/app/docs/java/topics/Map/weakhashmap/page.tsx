@@ -11,7 +11,7 @@ export default function WeakHashMapPage() {
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Creating a WeakHashMap</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// WeakHashMap creation with capacity 8 and load factor 0.6
 WeakHashMap<Key, Value> numbers = new WeakHashMap<>(8, 0.6);
 
@@ -24,7 +24,7 @@ WeakHashMap<Key, Value> numbers1 = new WeakHashMap<>();`}
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Difference Between HashMap and WeakHashMap</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`WeakHashMap<String, Integer> numbers = new WeakHashMap<>();
 String two = new String("Two");
 numbers.put(two, 2);
@@ -44,7 +44,7 @@ System.out.println(hashMap); // key "Two" remains`}
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Creating WeakHashMap from Other Maps</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`HashMap<String, Integer> evenNumbers = new HashMap<>();
 evenNumbers.put("Two", 2);
 
@@ -63,7 +63,7 @@ WeakHashMap<String, Integer> numbers = new WeakHashMap<>(evenNumbers);`}
       <p className="text-gray-700">
         Using <code>entrySet()</code>, <code>keySet()</code>, <code>values()</code>, <code>get()</code> and <code>getOrDefault()</code>:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`System.out.println(numbers.entrySet());
 System.out.println(numbers.keySet());
 System.out.println(numbers.values());
@@ -77,7 +77,7 @@ int val2 = numbers.getOrDefault("Four", 4);`}
         <li><code>remove(key)</code> - removes entry by key</li>
         <li><code>remove(key, value)</code> - removes entry only if key maps to value</li>
       </ul>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`numbers.remove("Two");
 numbers.remove("One", 3);`}
       </pre>

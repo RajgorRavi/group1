@@ -1,3 +1,12 @@
+import Image from "next/image";
+
+import java_inheritance_implementation from "./java-inheritance-implementation.png";
+import java_multilevel_inheritance from "./java-multilevel-inheritance.png";
+import java_hierarchical_inheritance from "./java-hierarchical-inheritance.png";
+import java_multiple_inheritance from "./java-multiple-inheritance.png";
+import java_hybrid_inheritance from "./java-hybrid-inheritance.png";
+import java_single_inheritance from "./java-single-inheritance.png";
+
 export default function JavaInheritancePage() {
   return (
     <div className="editor-contents text-black">
@@ -20,7 +29,7 @@ export default function JavaInheritancePage() {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
   // methods and fields
 }
 
@@ -50,7 +59,7 @@ class Dog extends Animal {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
 
   // field and method of the parent class
   String name;
@@ -99,7 +108,7 @@ I can eat`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`labrador.name = "Rohu";
+        <code className="text-black-700">{`labrador.name = "Rohu";
 
 labrador.eat();`}</code>
       </pre>
@@ -117,8 +126,8 @@ labrador.eat();`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-inheritance-implementation.png"
+        <Image
+          src={java_inheritance_implementation}
           title="Java Inheritance Implementation"
           alt="Subclass Dog can access the field and method of the superclass Animal."
           width="460"
@@ -191,7 +200,7 @@ labrador.eat();`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
 
   // method in the superclass
   public void eat() {
@@ -278,7 +287,7 @@ I can bark`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
 
   // method in the superclass
   public void eat() {
@@ -332,7 +341,7 @@ I can bark`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`super.eat();`}</code>
+        <code className="text-black-700">{`super.eat();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -362,7 +371,7 @@ I can bark`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
   protected String name;
 
   protected void display() {
@@ -412,7 +421,7 @@ My name is Rocky`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`labrador.name = "Rocky";
+        <code className="text-black-700">{`labrador.name = "Rocky";
 labrador.display();`}</code>
       </pre>
 
@@ -456,8 +465,8 @@ labrador.display();`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-single-inheritance.png"
+        <Image
+          src={java_single_inheritance}
           title="Java Single Inheritance"
           alt="Class A inherits from class B."
           width="200"
@@ -481,8 +490,8 @@ labrador.display();`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-multilevel-inheritance.png"
+        <Image
+          src= {java_multilevel_inheritance}
           title="Java Multilevel Inheritance"
           alt="Class B inherits from class A and class C inherits from class B."
           width="240"
@@ -506,8 +515,8 @@ labrador.display();`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-hierarchical-inheritance.png"
+        <Image
+          src={java_hierarchical_inheritance}
           title="Java Hierarchical Inheritance"
           alt="Both classes B and C inherit from the single class A."
           width="340"
@@ -531,8 +540,8 @@ labrador.display();`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-multiple-inheritance.png"
+        <Image
+          src={java_multiple_inheritance}
           title="Java Multiple Inheritance"
           alt="Class C inherits from both classes A and B."
           width="360"
@@ -559,8 +568,8 @@ labrador.display();`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-hybrid-inheritance.png"
+        <Image
+          src={java_hybrid_inheritance}
           title="Java Hybrid Inheritance"
           alt="Class B and C inherit from a single class A and class D inherits from both the class B and C."
           width="360"

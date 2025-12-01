@@ -14,10 +14,10 @@ export default function TreeMapPage() {
       <p className="text-gray-700">
         First, import the package:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`import java.util.TreeMap;`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`import java.util.TreeMap;`}</pre>
 
       <p className="text-gray-700">Example of creating a TreeMap:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`TreeMap<Key, Value> numbers = new TreeMap<>();`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`TreeMap<Key, Value> numbers = new TreeMap<>();`}</pre>
       <p className="text-gray-700">Elements in a TreeMap are naturally sorted (ascending order) by default. Custom sorting can be implemented using a Comparator.</p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Methods of TreeMap</h2>
@@ -30,7 +30,7 @@ export default function TreeMapPage() {
       </ul>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Example:</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`TreeMap<String, Integer> evenNumbers = new TreeMap<>();
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`TreeMap<String, Integer> evenNumbers = new TreeMap<>();
 evenNumbers.put("Two", 2);
 evenNumbers.put("Four", 4);
 evenNumbers.putIfAbsent("Six", 6);
@@ -86,7 +86,7 @@ numbers.putAll(evenNumbers);`}</pre>
       <p className="text-gray-700">
         By default, TreeMap elements are sorted naturally. To customize ordering, you can pass a <code>Comparator</code>:
       </p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`TreeMap<String, Integer> numbers = new TreeMap<>(new CustomComparator());
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`TreeMap<String, Integer> numbers = new TreeMap<>(new CustomComparator());
 
 public static class CustomComparator implements Comparator<String> {
     @Override

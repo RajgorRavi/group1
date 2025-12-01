@@ -20,28 +20,28 @@ export default function JavaExpressionsStatementsBlocksContent() {
         <p>
           A Java expression consists of{" "}
           <a
-            href="/java-programming/variables-primitive-data-types#variables"
+            href="/docs/java/topics/Java-Fundamentals/Java-variables-and-Literals"
             className="text-blue-600 underline"
           >
             variables
           </a>
           ,{" "}
           <a
-            href="/java-programming/operators"
+            href="/docs/java/topics/Java-Fundamentals/Java-Operators"
             className="text-blue-600 underline"
           >
             operators
           </a>
           ,{" "}
           <a
-            href="/java-programming/variables-primitive-data-types#literals"
+            href="/docs/java/topics/Java-Fundamentals/Java-variables-and-Literals"
             className="text-blue-600 underline"
           >
             literals
           </a>
           , and method calls. To know more about method calls, visit{" "}
           <a
-            href="/java-programming/methods"
+            href="/docs/java/topics/oop1/Methods"
             className="text-blue-600 underline"
           >
             Java methods
@@ -78,7 +78,7 @@ result = a + b - 3.4;`}</code>
           boolean value. Similarly,{" "}
           <code>"Number 1 is larger than number 2"</code> is a{" "}
           <a
-            href="/java-programming/string"
+            href="/docs/java/topics/oop1/string"
             className="text-blue-600 underline"
           >
             string
@@ -264,7 +264,7 @@ number = 10;`}</code>
         <ul className="list-disc list-inside">
           <li>
             <a
-              href="/java-programming/if-else-statement"
+              href="/docs/java/topics/flow/Java-If-Else"
               className="text-blue-600 underline"
             >
               Java if…else Statement

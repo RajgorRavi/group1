@@ -16,7 +16,7 @@ export default function HashMapPage() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Creating a HashMap
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// Creating a HashMap with String keys and Integer values
 HashMap<String, Integer> numbers = new HashMap<>();`}
       </pre>
@@ -24,7 +24,7 @@ HashMap<String, Integer> numbers = new HashMap<>();`}
       <h3 className="text-lg sm:text-xl font-semibold mt-4 mb-2 text-black">
         Example: Creating a HashMap
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`import java.util.HashMap;
 
 class Main {
@@ -44,7 +44,7 @@ class Main {
       </h2>
 
       <h3 className="text-lg sm:text-xl font-semibold mt-4 text-black">Add Elements</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`HashMap<String, Integer> numbers = new HashMap<>();
 numbers.put("One", 1);
 numbers.put("Two", 2);
@@ -52,7 +52,7 @@ numbers.put("Three", 3);`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mt-4 text-black">Access Elements</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`String value = languages.get(1);
 System.out.println("Value at index 1: " + value);
 
@@ -63,25 +63,25 @@ System.out.println(languages.entrySet());`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mt-4 text-black">Change Value</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`languages.replace(2, "C++"); // change value for key 2`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mt-4 text-black">Remove Elements</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`String removedValue = languages.remove(2); // remove by key
 boolean removed = languages.remove(2, "C++"); // conditional removal`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mt-4 text-black">Iterate through a HashMap</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`for (Integer key : languages.keySet()) System.out.println(key);
 for (String val : languages.values()) System.out.println(val);
 for (Map.Entry<Integer, String> entry : languages.entrySet()) System.out.println(entry);`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mt-4 text-black">Create HashMap from Other Maps</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`TreeMap<String, Integer> evenNumbers = new TreeMap<>();
 evenNumbers.put("Two", 2);
 evenNumbers.put("Four", 4);

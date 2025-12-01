@@ -58,7 +58,7 @@ export default function JavaArrayList(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`ArrayList<Type> arrayList = new ArrayList<>();`}</code>
+        <code className="java hljs text-black-700">{`ArrayList<Type> arrayList = new ArrayList<>();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -66,7 +66,7 @@ export default function JavaArrayList(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// create Integer type arraylist
+        <code className="java hljs text-black-700">{`// create Integer type arraylist
 ArrayList<Integer> arrayList = new ArrayList<>();
 
 // create String type arraylist
@@ -87,7 +87,7 @@ ArrayList<String> arrayList = new ArrayList<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args){
@@ -148,7 +148,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args){
@@ -176,7 +176,7 @@ class Main {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// add JavaScript at index 1
+        <code className="java hljs text-black-700">{`// add JavaScript at index 1
 languages.add(1, "JavaScript");
 
 // add C++ at index 3
@@ -189,7 +189,7 @@ languages.add(3, "C++");`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.HashSet;
 
 class Main {
@@ -225,7 +225,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
@@ -270,7 +270,7 @@ Element at index 1: Dog`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
@@ -311,7 +311,7 @@ Modified ArrayList: [Java, Kotlin, JavaScript]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
@@ -409,7 +409,7 @@ Removed Element: Horse`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
@@ -475,7 +475,7 @@ Cow, Cat, Dog,`}</code>
       </p>
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
@@ -515,7 +515,7 @@ Array: Java, Python, C++, `}</code>
       </p>
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.Arrays;
 
 class Main {
@@ -551,7 +551,7 @@ ArrayList: [Java, Python, C++]`}</code>
       </p>
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.Arrays;
 
 class Main {
@@ -575,7 +575,7 @@ class Main {
       </p>
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
@@ -607,7 +607,7 @@ String: [Java, Python, Kotlin]`}</code>
       </p>
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.List;
 
 class Main {

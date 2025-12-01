@@ -1,4 +1,5 @@
-export default function JavaBreakStatementContent() {
+import Image from "next/image";
+import java_break_statement_works from "./java-break-statement-works.png"; export default function JavaBreakStatementContent() {
   return (
     <div className="editor-contents text-black">
       <h1 className="text-3xl font-bold mb-6">Java break Statement</h1>
@@ -9,7 +10,7 @@ export default function JavaBreakStatementContent() {
         </p>
 
         <p>
-          In such cases, <code>break</code> and <code>continue</code> statements are used. You will learn about the <a href="/java-programming/continue-statement" title="Java continue Statement" className="text-blue-600 underline">Java continue statement</a> in the next tutorial.
+          In such cases, <code>break</code> and <code>continue</code> statements are used. You will learn about the <a href="/docs/java/topics/flow/Java-Continue-Statement" title="Java continue Statement" className="text-blue-600 underline">Java continue statement</a> in the next tutorial.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -19,7 +20,7 @@ export default function JavaBreakStatementContent() {
         </p>
 
         <p>
-          It is almost always used with decision-making statements (<a href="/java-programming/if-else-statement" className="text-blue-600 underline">Java if...else Statement</a>).
+          It is almost always used with decision-making statements (<a href="/docs/java/topics/flow/Java-If-Else" className="text-blue-600 underline">Java if...else Statement</a>).
         </p>
 
         <p>Here is the syntax of the break statement in Java:</p>
@@ -33,7 +34,7 @@ export default function JavaBreakStatementContent() {
         <h2 id="working-of-break" className="text-2xl font-semibold mt-6 mb-2">How break statement works?</h2>
 
         <figure>
-          <img src="//cdn.programiz.com/sites/tutorial2program/files/java-break-statement-works.jpg" alt="How break statement works in Java programming?" title="Working of Java break Statement" width="560" height="354" />
+          <Image src={java_break_statement_works} alt="How break statement works in Java programming?" title="Working of Java break Statement" width="560" height="354" />
           <figcaption>Working of Java break Statement</figcaption>
         </figure>
 
@@ -68,7 +69,7 @@ export default function JavaBreakStatementContent() {
         </pre>
 
         <p>
-          In the above program, we are using the <code>for</code> loop to print the value of <var>i</var> in each iteration. To know how <code>for</code> loop works, visit the <a href="/java-programming/for-loop" title="Java for Loop" className="text-blue-600 underline">Java for loop</a>.
+          In the above program, we are using the <code>for</code> loop to print the value of <var>i</var> in each iteration. To know how <code>for</code> loop works, visit the <a href="/docs/java/topics/flow/Java-For-Loop" title="Java for Loop" className="text-blue-600 underline">Java for loop</a>.
           Here, notice the statement,
         </p>
 
@@ -87,7 +88,7 @@ export default function JavaBreakStatementContent() {
         <p>The program below calculates the sum of numbers entered by the user until user enters a negative number.</p>
 
         <p>
-          To take input from the user, we have used the <code>Scanner</code> object. To learn more about <code>Scanner</code>, visit <a href="/java-programming/scanner" title="Java Scanner" className="text-blue-600 underline">Java Scanner</a>.
+          To take input from the user, we have used the <code>Scanner</code> object. To learn more about <code>Scanner</code>, visit Java Scanner.
         </p>
 
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
@@ -146,7 +147,7 @@ Sum = 10.5`}</code>
 
         <h2 id="break-nested-loops" className="text-2xl font-semibold mt-6 mb-2">Java break and Nested Loop</h2>
 
-        <p>In the case of <a href="/java-programming/nested-loop" title="Java nested Loop" className="text-blue-600 underline">nested loops</a>, the <code>break</code> statement terminates the innermost loop.</p>
+        <p>In the case of nested loops, the <code>break</code> statement terminates the innermost loop.</p>
 
         <figure>
           <img src="//cdn.programiz.com/sites/tutorial2program/files/nested-while-loop-break.jpg" alt="The break statement terminates the innermost while loop in case of nested loops." title="Working of break Statement with Nested Loops" width="300" height="238" />
@@ -282,7 +283,7 @@ i = 4; j = 2`}</code>
         </pre>
 
         <div className="bg-yellow-100 p-4 rounded border border-yellow-300">
-          <strong>Note</strong>: The <code>break</code> statement is also used to terminate cases inside the <code>switch</code> statement. To learn more, visit the <a href="/java-programming/switch-statement" className="text-blue-600 underline">Java switch statement</a>.
+          <strong>Note</strong>: The <code>break</code> statement is also used to terminate cases inside the <code>switch</code> statement. To learn more, visit the <a href="/docs/java/topics/flow/Java-Switch-Statement" className="text-blue-600 underline">Java switch statement</a>.
         </div>
 
       </div>

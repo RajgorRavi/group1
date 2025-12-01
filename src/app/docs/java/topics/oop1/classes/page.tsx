@@ -24,7 +24,7 @@ export default function JavaClassObjectsPage() {
         A <strong>class</strong> is a blueprint for creating objects. It defines the state (fields) and behavior <a href="/docs/java/topics/oop1/Methods" className="text-blue-600 ">Methods</a> of the objects.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Bicycle {
   // state or field
   private int gear = 5;
@@ -43,7 +43,7 @@ export default function JavaClassObjectsPage() {
         An <strong>object</strong> is an instance of a class. You can create multiple objects from a single class using the <code>new</code> keyword.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`Bicycle sportsBicycle = new Bicycle();
 Bicycle touringBicycle = new Bicycle();`}
       </pre>
@@ -55,7 +55,7 @@ Bicycle touringBicycle = new Bicycle();`}
         Use the object name with the <code>.</code> operator to access fields and methods.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`sportsBicycle.gear;
 sportsBicycle.braking();`}
       </pre>
@@ -63,7 +63,7 @@ sportsBicycle.braking();`}
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 1: Class and Objects
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Lamp {
   boolean isOn;
 
@@ -87,8 +87,11 @@ public class Main {
     halogen.turnOff();
   }
 }`}
+      
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         Output:
         <br />
         <code>Light on? true</code>
@@ -99,7 +102,7 @@ public class Main {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 2: Objects Inside the Same Class
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Lamp {
   boolean isOn;
 
@@ -114,7 +117,8 @@ public class Main {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         Output:
         <br />
         <code>Light on? true</code>

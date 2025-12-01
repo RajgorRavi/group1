@@ -38,7 +38,7 @@ export default function JavaNavigableSetInterface(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// SortedSet implementation by TreeSet class
+        <code className="java hljs text-black-700">{`// SortedSet implementation by TreeSet class
 NavigableSet<String> numbers = new TreeSet<>();`}</code>
       </pre>
 
@@ -135,7 +135,7 @@ NavigableSet<String> numbers = new TreeSet<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.NavigableSet;
+          <code className="java hljs text-black-700">{`import java.util.NavigableSet;
 import java.util.TreeSet;
 
 class Main {

@@ -42,7 +42,7 @@ export default function JavaSortedSetInterface(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// SortedSet implementation by TreeSet class
+        <code className="java hljs text-black-700">{`// SortedSet implementation by TreeSet class
 SortedSet<String> animals = new TreeSet<>();`}</code>
       </pre>
 
@@ -77,7 +77,7 @@ SortedSet<String> animals = new TreeSet<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.SortedSet;
+          <code className="java hljs text-black-700">{`import java.util.SortedSet;
 import java.util.TreeSet;
 
 class Main {

@@ -9,7 +9,7 @@ export default function JavaContinueStatementContent() {
         </p>
 
         <p>
-          To learn about the <code>break</code> statement, visit <a href="/java-programming/break-statement" className="text-blue-600 underline">Java break</a>. Here, we will learn about the <code>continue</code> statement.
+          To learn about the <code>break</code> statement, visit <a href="/docs/java/topics/flow/Java-Break-Statement" className="text-blue-600 underline">Java break</a>. Here, we will learn about the <code>continue</code> statement.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -31,7 +31,7 @@ export default function JavaContinueStatementContent() {
         </pre>
 
         <div className="bg-yellow-100 p-4 rounded border border-yellow-300">
-          <strong>Note</strong>: The continue statement is almost always used in decision-making statements (<a href="/java-programming/if-else-statement" className="text-blue-600 underline">if...else Statement</a>).
+          <strong>Note</strong>: The continue statement is almost always used in decision-making statements (<a href="/docs/java/topics/flow/Java-If-Else" className="text-blue-600 underline">if...else Statement</a>).
         </div>
 
         <hr className="my-6 border-gray-300" />
@@ -77,7 +77,7 @@ export default function JavaContinueStatementContent() {
         </pre>
 
         <p>
-          In the above program, we are using the <code>for</code> loop to print the value of <var>i</var> in each iteration. To know how <code>for</code> loop works, visit <a href="/java-programming/for-loop" className="text-blue-600 underline">Java for loop</a>. Notice the statement,
+          In the above program, we are using the <code>for</code> loop to print the value of <var>i</var> in each iteration. To know how <code>for</code> loop works, visit <a href="/docs/java/topics/flow/Java-For-Loop" className="text-blue-600 underline">Java for loop</a>. Notice the statement,
         </p>
 
         <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
@@ -141,7 +141,7 @@ Sum = 7.8`}</pre>
         <h2 id="continue-nested-loops" className="text-2xl font-semibold mt-6 mb-2">Java continue with Nested Loop</h2>
 
         <p>
-          In the case of <a href="/java-programming/nested-loop" className="text-blue-600 underline">nested loops in Java</a>, the <code>continue</code> statement skips the current iteration of the innermost loop.
+          In the case of nested loops in Java, the <code>continue</code> statement skips the current iteration of the innermost loop.
         </p>
 
         <figure>
@@ -189,7 +189,7 @@ Outer Loop: 2
 Outer Loop: 3`}</pre>
 
         <p>
-          In the above example, we have used the nested <a href="/java-programming/do-while-loop" className="text-blue-600 underline">while loop</a>. Note that we have used the <code>continue</code> statement inside the inner loop.
+          In the above example, we have used the nested <a href="/docs/java/topics/flow/Java-While-Dowhile" className="text-blue-600 underline">while loop</a>. Note that we have used the <code>continue</code> statement inside the inner loop.
         </p>
 
         <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">

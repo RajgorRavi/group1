@@ -12,7 +12,7 @@ export default function JavaDataTypesContent() {
           As the name suggests, data types specify the type of data that can be
           stored inside{" "}
           <a
-            href="/java-programming/variables-literals"
+            href="/docs/java/topics/Java-Fundamentals/Java-variables-and-Literals"
             className="text-blue-600 underline"
           >
             variables in Java
@@ -70,7 +70,7 @@ export default function JavaDataTypesContent() {
           </li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     boolean flag = true;
     System.out.println(flag); // prints true
@@ -95,7 +95,7 @@ export default function JavaDataTypesContent() {
           <li>Default value: 0</li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     byte range = 124;
     System.out.println(range); // prints 124
@@ -121,7 +121,7 @@ export default function JavaDataTypesContent() {
           <li>Default value: 0</li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     short temperature = -200;
     System.out.println(temperature); // prints -200
@@ -160,7 +160,7 @@ export default function JavaDataTypesContent() {
           <li>Default value: 0</li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     int range = -4250000;
     System.out.println(range); // print -4250000
@@ -196,7 +196,7 @@ export default function JavaDataTypesContent() {
           <li>Default value: 0</li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class LongExample {
+          <code className="text-black-700">{`class LongExample {
   public static void main(String[] args) {
     long range = -42332200000L;
     System.out.println(range); // prints -42332200000
@@ -222,7 +222,7 @@ export default function JavaDataTypesContent() {
           <li>Default value: 0.0 (0.0d)</li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     double number = -42.3;
     System.out.println(number); // prints -42.3
@@ -251,7 +251,7 @@ export default function JavaDataTypesContent() {
           <li>Default value: 0.0 (0.0f)</li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     float number = -42.3f;
     System.out.println(number); // prints -42.3
@@ -284,7 +284,7 @@ export default function JavaDataTypesContent() {
           </li>
         </ul>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     char letter = '\u0051';
     System.out.println(letter); // prints Q
@@ -326,7 +326,7 @@ export default function JavaDataTypesContent() {
           types. Instead, they are objects.
         </p>
         <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-          <code className="text-green-700">{`String myString = "Java Programming";`}</code>
+          <code className="text-black-700">{`String myString = "Java Programming";`}</code>
         </pre>
         <p>
           Here, <var>myString</var> is an object of the <code>String</code>{" "}

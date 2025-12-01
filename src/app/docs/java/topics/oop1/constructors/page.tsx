@@ -11,7 +11,7 @@ export default function JavaConstructors() {
         A constructor in Java is a special method invoked when an object is created. Unlike normal methods, it has the <strong>same name as the class</strong> and has <strong>no return type</strong>.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Test {
   Test() {
     // constructor body
@@ -22,7 +22,7 @@ export default function JavaConstructors() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example: Java Constructor
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   private String name;
 
@@ -38,7 +38,8 @@ export default function JavaConstructors() {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         Constructor Called:<br />
         The name is Programiz
@@ -56,7 +57,7 @@ export default function JavaConstructors() {
       <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2 text-black">
         No-Arg Constructor Example
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   int i;
 
@@ -71,7 +72,8 @@ export default function JavaConstructors() {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         Constructor is called<br />
         Value of i: 5
@@ -80,7 +82,7 @@ export default function JavaConstructors() {
       <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2 text-black">
         Parameterized Constructor Example
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   String language;
 
@@ -96,7 +98,8 @@ export default function JavaConstructors() {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         Java Programming Language<br />
         Python Programming Language<br />
@@ -106,7 +109,7 @@ export default function JavaConstructors() {
       <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2 text-black">
         Default Constructor Example
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   int a;
   boolean b;
@@ -119,7 +122,8 @@ export default function JavaConstructors() {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         Default Value:<br />
         a = 0<br />
@@ -133,7 +137,7 @@ export default function JavaConstructors() {
         Similar to method overloading, constructors can also be overloaded with different parameter lists.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
   String language;
 
@@ -160,7 +164,8 @@ export default function JavaConstructors() {
   }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <strong>Output:</strong><br />
         Programming Language: Java<br />
         Programming Language: Python

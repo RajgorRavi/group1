@@ -22,7 +22,7 @@ export default function JavaAccessModifiers() {
       </ul>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">1. Default Access Modifier</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`package defaultPackage;
 
 class Logger {
@@ -36,7 +36,7 @@ class Logger {
       </p>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">2. Private Access Modifier</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Data {
     private String name;
 
@@ -64,7 +64,7 @@ public class Main {
       </p>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">3. Protected Access Modifier</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Animal {
     protected void display() {
         System.out.println("I am an animal");
@@ -83,7 +83,7 @@ class Dog extends Animal {
       </p>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">4. Public Access Modifier</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// Animal.java
 public class Animal {
     public int legCount;

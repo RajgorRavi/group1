@@ -173,7 +173,7 @@ export default function JavaCollectionsFramework(): JSX.Element {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`// The Collections framework is defined in the java.util package
+          <code className="java hljs text-black-700">{`// The Collections framework is defined in the java.util package
 import java.util.ArrayList;
 
 class Main {

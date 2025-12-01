@@ -42,7 +42,7 @@ export default function JavaEnumSet(): JSX.Element {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.EnumSet;
+          <code className="java hljs text-black-700">{`import java.util.EnumSet;
 
 class Main {
     // an enum named Size
@@ -83,7 +83,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.EnumSet;
+          <code className="java hljs text-black-700">{`import java.util.EnumSet;
 
 class Main {
 
@@ -128,7 +128,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.EnumSet;
+          <code className="java hljs text-black-700">{`import java.util.EnumSet;
 
 class Main {
 
@@ -165,7 +165,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.EnumSet;
+          <code className="java hljs text-black-700">{`import java.util.EnumSet;
 
 class Main {
 
@@ -219,7 +219,7 @@ EnumSet2: [SMALL, LARGE]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.EnumSet;
+          <code className="java hljs text-black-700">{`import java.util.EnumSet;
 
 class Main {
 
@@ -270,7 +270,7 @@ EnumSet using addAll(): [SMALL, MEDIUM, LARGE, EXTRALARGE]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.EnumSet;
+          <code className="java hljs text-black-700">{`import java.util.EnumSet;
 import java.util.Iterator;
 
 class Main {
@@ -323,7 +323,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.EnumSet;
+          <code className="java hljs text-black-700">{`import java.util.EnumSet;
 
 class Main {
 

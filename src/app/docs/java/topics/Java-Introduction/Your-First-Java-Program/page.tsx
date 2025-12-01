@@ -11,7 +11,7 @@ export default function VariablePage() {
 
       <p>The following program displays <strong>Hello, World!</strong> on the screen:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`public class Main {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -19,7 +19,7 @@ export default function VariablePage() {
 }`}</pre>
 
       <h3 className="text-xl md:text-2xl font-bold mt-8 mb-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`Hello, World!`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Hello, World!`}</pre>
 
       <p>
         This <strong>Hello World!</strong> program introduces the basic syntax structure of Java.
@@ -28,7 +28,7 @@ export default function VariablePage() {
 
       <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-5">How the Program Works</h2>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`public class Main { 
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`public class Main { 
 
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -37,7 +37,7 @@ export default function VariablePage() {
 
       <p>Notice this line:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`System.out.println("Hello, World!");`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`System.out.println("Hello, World!");`}</pre>
 
       <p>This prints text to the screen. Remember:</p>
       <ul className="list-disc ml-6">
@@ -47,7 +47,7 @@ export default function VariablePage() {
       </ul>
 
       <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-5">Basic Structure of a Java Program</h2>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class Main {
     public static void main(String[] args) {
 
         ...  // your code goes here

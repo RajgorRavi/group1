@@ -14,7 +14,7 @@ export default function JavaInterfacePage() {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`interface Language {
+        <code className="text-black-700">{`interface Language {
   public void getType();
 
   public void getVersion();
@@ -49,7 +49,7 @@ export default function JavaInterfacePage() {
       <h3 className="text-xl font-semibold mb-2">Example 1: Java Interface</h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`interface Polygon {
+        <code className="text-black-700">{`interface Polygon {
   void getArea(int length, int breadth);
 }
 
@@ -91,7 +91,7 @@ class Main {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`// create an interface
+        <code className="text-black-700">{`// create an interface
 interface Language {
   void getName(String name);
 }
@@ -140,7 +140,7 @@ class Main {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`interface A {
+        <code className="text-black-700">{`interface A {
   // members of A
 }
 
@@ -167,7 +167,7 @@ class C implements A, B {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`interface Line {
+        <code className="text-black-700">{`interface Line {
   // members of Line interface
 }
 
@@ -196,7 +196,7 @@ interface Polygon extends Line {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`interface A {
+        <code className="text-black-700">{`interface A {
   ...
 }
 interface B {
@@ -250,7 +250,7 @@ interface C extends A, B {
       </ul>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`interface Line {
+        <code className="text-black-700">{`interface Line {
 ...
 }
 
@@ -277,7 +277,7 @@ class Rectangle implements Line, Polygon {
         </p>
 
         <pre className="bg-gray-300 p-2 rounded-lg overflow-auto max-h-[600px]">
-          <code className="text-green-800">{`interface Language {
+          <code className="text-black-800">{`interface Language {
   
   // by default public static final
   String type = "programming language";
@@ -306,7 +306,7 @@ class Rectangle implements Line, Polygon {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`public default void getSides() {
+        <code className="text-black-700">{`public default void getSides() {
     // body of getSides()
 }`}</code>
       </pre>
@@ -350,7 +350,7 @@ class Rectangle implements Line, Polygon {
       </h2>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`interface Polygon {
+        <code className="text-black-700">{`interface Polygon {
   void getArea();
 
   // default method 
@@ -449,7 +449,7 @@ I can get sides of a polygon.`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`// create an interface
+        <code className="text-black-700">{`// create an interface
 interface Polygon {
   staticMethod(){..}
 }
@@ -482,7 +482,7 @@ Polygon.staticMethod();`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`// To use the sqrt function
+        <code className="text-black-700">{`// To use the sqrt function
 import java.lang.Math;
 
 interface Polygon {

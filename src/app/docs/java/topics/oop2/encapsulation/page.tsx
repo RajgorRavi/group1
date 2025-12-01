@@ -23,7 +23,7 @@ export default function JavaEncapsulationPage() {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Area {
+        <code className="text-black-700">{`class Area {
 
   // fields to calculate area
   int length;
@@ -107,7 +107,7 @@ class Main {
         <li>
           It helps to control the values of our data fields. For example,
           <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px] mt-2">
-            <code className="text-green-700">{`class Person {
+            <code className="text-black-700">{`class Person {
   private int age;
 
   public void setAge(int age) {
@@ -126,7 +126,7 @@ class Main {
           The getter and setter methods provide read-only or write-only
           access to our class fields. For example,
           <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px] mt-2">
-            <code className="text-green-700">{`getName()  // provides read-only access
+            <code className="text-black-700">{`getName()  // provides read-only access
 setName() // provides write-only access`}</code>
           </pre>
         </li>
@@ -171,7 +171,7 @@ setName() // provides write-only access`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Person {
+        <code className="text-black-700">{`class Person {
 
   // private field
   private int age;
@@ -231,7 +231,7 @@ class Main {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`// error: age has private access in Person
+        <code className="text-black-700">{`// error: age has private access in Person
 p1.age = 24;`}</code>
       </pre>
     </div>

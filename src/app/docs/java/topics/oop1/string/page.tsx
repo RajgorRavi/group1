@@ -14,7 +14,7 @@ export default function JavaStringsTutorial() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Creating Strings
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// Using string literals
 String first = "Java";
 String second = "Python";
@@ -28,14 +28,14 @@ String third = new String("Java String");`}
       </h2>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">1. Get Length</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`String greet = "Hello! World";
 int length = greet.length();
 System.out.println("Length: " + length); // Output: 12`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">2. Concatenate Strings</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`String first = "Java ";
 String second = "Programming";
 String joined = first.concat(second);
@@ -46,7 +46,7 @@ String joined2 = first + second;`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">3. Compare Strings</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`String first = "java programming";
 String second = "java programming";
 String third = "python programming";
@@ -56,13 +56,13 @@ System.out.println(first.equals(third));  // false`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">4. Escape Characters</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`String example = "This is the \"String\" class.";
 System.out.println(example); // Output: This is the "String" class.`}
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">5. Strings are Immutable</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`String example = "Hello! ";
 example = example.concat("World");
 System.out.println(example); // Output: Hello! World
@@ -70,7 +70,7 @@ System.out.println(example); // Output: Hello! World
       </pre>
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">6. String Literals vs New Keyword</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// Literal
 String s1 = "Java"; // stored in string pool
 String s2 = "Java"; // same reference as s1

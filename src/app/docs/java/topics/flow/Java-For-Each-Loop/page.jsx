@@ -4,7 +4,7 @@ export default function JavaForEachLoopContent() {
       <h1 className="text-3xl font-bold mb-6">Java for-each Loop</h1>
       <div className="content space-y-4">
         <p id="introduction">
-          In Java, the <strong>for-each</strong> loop is used to iterate through elements of <a href="/java-programming/arrays" className="text-blue-600 underline">arrays</a> and <a href="/java-programming/collections" className="text-blue-600 underline">collections</a> (like <a href="/java-programming/arraylist" className="text-blue-600 underline">ArrayList</a>). It is also known as the enhanced for loop.
+          In Java, the <strong>for-each</strong> loop is used to iterate through elements of <a href="/docs/java/topics/arrays/Java-Arrays" className="text-blue-600 underline">arrays</a> and <a href="/docs/java/topics/List/collection-framework" className="text-blue-600 underline">collections</a> (like <a href="/docs/java/topics/List/arraylist" className="text-blue-600 underline">ArrayList</a>). It is also known as the enhanced for loop.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -22,7 +22,7 @@ export default function JavaForEachLoopContent() {
         <ul className="list-disc list-inside">
           <li><strong>array</strong> - an array or a collection</li>
           <li><strong>item</strong> - each item of array/collection is assigned to this variable</li>
-          <li><strong>dataType</strong> - the <a href="/java-programming/variables-primitive-data-types" className="text-blue-600 underline">data type</a> of the array/collection</li>
+          <li><strong>dataType</strong> - the <a href="/docs/java/topics/Java-Fundamentals/Java-Data-Types" className="text-blue-600 underline">data type</a> of the array/collection</li>
         </ul>
 
         <hr className="my-6 border-gray-300" />
@@ -139,7 +139,7 @@ class Main {
 
         <h2 id="difference" className="text-2xl font-semibold mt-6 mb-2">for loop Vs for-each loop</h2>
 
-        <p>Let's see how a <code>for-each</code> loop is different from a regular <a href="/java-programming/for-loop" className="text-blue-600 underline">Java for loop</a>.</p>
+        <p>Let's see how a <code>for-each</code> loop is different from a regular <a href="/docs/java/topics/flow/Java-For-Loop" className="text-blue-600 underline">Java for loop</a>.</p>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">1. Using for loop</h3>
 

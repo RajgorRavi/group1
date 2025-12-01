@@ -5,14 +5,14 @@ export default function JavaMultidimensionalArraysContent() {
       <div className="content space-y-4">
 
         <p id="introduction">
-          Before we learn about the multidimensional array, make sure you know about <a href="/java-programming/arrays" className="text-blue-600 underline">Java array</a>.
+          Before we learn about the multidimensional array, make sure you know about Java array.
         </p>
 
         <p>
           A multidimensional array is an array of arrays. Each element of a multidimensional array is an array itself. For example,
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">int[][] a = new int[3][4];</code>
         </pre>
 
@@ -24,12 +24,12 @@ export default function JavaMultidimensionalArraysContent() {
           Let's take another example of the multidimensional array. This time we will be creating a 3-dimensional array. For example,
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">String[][][] data = new String[3][4][2];</code>
         </pre>
 
         <p>
-          Here, <var>data</var> is a 3d array that can hold a maximum of 24 (3*4*2) elements of type <a href="/java-programming/string" className="text-blue-600 underline">String</a>.
+          Here, <var>data</var> is a 3d array that can hold a maximum of 24 (3*4*2) elements of type String.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -38,7 +38,7 @@ export default function JavaMultidimensionalArraysContent() {
 
         <p>Here is how we can initialize a 2-dimensional array in Java.</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`int[][] a = {
       {1, 2, 3}, 
       {4, 5, 6, 9}, 
@@ -70,7 +70,7 @@ export default function JavaMultidimensionalArraysContent() {
         </pre>
 
         <p><strong>Output</strong>:</p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>{`Length of row 1: 3
 Length of row 2: 4
 Length of row 3: 1`}</code>
@@ -86,7 +86,7 @@ Length of row 3: 1`}</code>
 
         <h3 id="2d-example" className="text-xl font-semibold mt-6 mb-2">Example: Print all elements of 2d array Using Loop</h3>
 
-        <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`class MultidimensionalArray {
     public static void main(String[] args) {
 
@@ -107,7 +107,7 @@ Length of row 3: 1`}</code>
 
         <p><strong>Output</strong>:</p>
 
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>{`1
 -2
 3
@@ -118,7 +118,7 @@ Length of row 3: 1`}</code>
 7`}</code>
         </pre>
 
-        <p>We can also use the <a href="/java-programming/enhanced-for-loop" className="text-blue-600 underline">for...each loop</a> to access elements of the multidimensional array. For example,</p>
+        <p>We can also use the for...each loop to access elements of the multidimensional array. For example,</p>
 
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
           <code className="java hljs">{`class MultidimensionalArray {
@@ -145,7 +145,7 @@ Length of row 3: 1`}</code>
 
         <p><strong>Output</strong>:</p>
 
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>{`1
 -2
 3
@@ -166,7 +166,7 @@ Length of row 3: 1`}</code>
 
         <p>Let's see how we can use a 3d array in Java. We can initialize a 3d array similar to the 2d array. For example,</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`// test is a 3d array
 int[][][] test = {
         {
@@ -218,7 +218,7 @@ int[][][] test = {
 
         <p><strong>Output</strong>:</p>
 
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>{`1
 -2
 3
@@ -236,12 +236,7 @@ int[][][] test = {
 
         <hr className="my-6 border-gray-300" />
 
-        <p><strong>Also Read:</strong></p>
-
-        <ul className="list-disc list-inside">
-          <li><a href="/java-programming/examples/add-matrix" className="text-blue-600 underline">Java Program to Add Two Matrix Using Multi-dimensional Arrays</a></li>
-          <li><a href="/java-programming/examples/multiply-matrix" className="text-blue-600 underline">Java Program to Multiply Two Matrix Using Multi-dimensional Arrays</a></li>
-        </ul>
+      
 
       </div>
     </div>

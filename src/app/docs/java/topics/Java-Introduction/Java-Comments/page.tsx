@@ -14,7 +14,7 @@ export default function VariablePage() {
       </p>
 
       <h2 className="text-2xl md:text-3xl font-bold mt-10 mb-4">Example</h2>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class HelloWorld {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class HelloWorld {
     public static void main(String[] args) {
         // print Hello World to the screen
         System.out.println("Hello World");
@@ -22,14 +22,14 @@ export default function VariablePage() {
 }`}</pre>
 
       <h3 className="text-xl md:text-2xl font-bold mt-8 mb-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">Hello World</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">Hello World</pre>
 
       <p>Here, <code>// print Hello World to the screen</code> is a comment. Anything after <code>//</code> is ignored.</p>
 
       <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-4">Single-line Comment</h2>
       <p>A single-line comment begins with <code>//</code> and ends at the end of the line.</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`// declare and initialize two variables
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`// declare and initialize two variables
 int a = 1;
 int b = 3;
 
@@ -42,7 +42,7 @@ System.out.println("This is output");`}</pre>
 
       <p>Use <code>/* ... */</code> to write comments across multiple lines.</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`/* This is an example of multi-line comment.
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`/* This is an example of multi-line comment.
  * The program prints "Hello, World!" to the standard output.
  */
 
@@ -53,7 +53,7 @@ class HelloWorld {
 }`}</pre>
 
       <h3 className="text-xl md:text-2xl font-bold mt-8 mb-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">Hello, World!</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">Hello, World!</pre>
 
       <p>The compiler ignores everything from <code>/*</code> to <code>*/</code>.</p>
 
@@ -61,7 +61,7 @@ class HelloWorld {
 
       <p>Comments are useful for temporarily disabling code while debugging.</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`public class Main {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`public class Main {
     public static void main(String[] args) {
         System.out.println("some code");
         System.out.println("error code");
@@ -71,7 +71,7 @@ class HelloWorld {
 
       <p>If the middle line causes an error, you can disable it:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`public class Main {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`public class Main {
     public static void main(String[] args) {
         System.out.println("some code");
         // System.out.println("error code");

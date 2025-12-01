@@ -1,3 +1,11 @@
+import Image from "next/image";
+
+import java_overriding_example from "./java-overriding-example.png";
+import call_superclass_method from "./call-superclass-method.png";
+import parameterized_super_example from "./parameterized_super_example.png"
+import super_example from "./super_example.png"
+
+
 export default function JavaSuperKeywordPage() {
   return (
     <div className="editor-contents text-black">
@@ -53,7 +61,7 @@ export default function JavaSuperKeywordPage() {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
 
   // overridden method
   public void display(){
@@ -102,8 +110,8 @@ class Main {
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-overriding-example.png"
+        <Image
+          src={java_overriding_example}
           title="Java overriding example"
           alt="Java overriding example"
           width="500"
@@ -130,7 +138,7 @@ class Main {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
 
   // overridden method
   public void display(){
@@ -174,8 +182,8 @@ I am an animal`}</code>
       <p className="mb-4">Here, how the above program works.</p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/call-superclass-method.png"
+        <Image
+          src={call_superclass_method}
           title="Working of super in Java"
           alt="Working of super in Java"
           width="500"
@@ -204,7 +212,7 @@ I am an animal`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
   protected String type="animal";
 }
 
@@ -288,7 +296,7 @@ I am an animal`}</code>
       <h3 className="text-xl font-semibold mb-2">Example 4: Use of super()</h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
 
   // default or no-arg constructor of class Animal
   Animal() {
@@ -334,8 +342,8 @@ I am a dog`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/super%28%29-example.png"
+        <Image
+          src={super_example}
           title="Working of super() in Java"
           alt="Working of super() in Java"
           width="450"
@@ -380,7 +388,7 @@ I am a dog`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Animal {
+        <code className="text-black-700">{`class Animal {
 
   // default or no-arg constructor
   Animal() {
@@ -430,8 +438,8 @@ I am a dog`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/parameterized-super-example.png"
+        <Image
+          src={parameterized_super_example}
           title="Working of super in case of parameterized constructor."
           alt="Working of super in case of parameterized constructor."
           width="450"

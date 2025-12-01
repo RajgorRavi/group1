@@ -5,7 +5,7 @@ export default function JavaVariablesPage() {
 
       <p className="mb-4">
         In the previous tutorial you learnt about{" "}
-        <a href="/java-programming/comments" className="text-blue-600 underline">
+        <a href="/docs/java/topics/Java-Introduction/Java-Comments" className="text-blue-600 underline">
           Java comments
         </a>
         . Now, let's learn about variables and literals in Java.
@@ -23,13 +23,13 @@ export default function JavaVariablesPage() {
 
       <p className="mb-4">
         To indicate the storage area, each variable should be given a unique
-        name (identifier). Learn more about{" "}
-        <a
-          href="/java-programming/keywords-identifiers"
+        name (identifier).
+        {/* <a
+          href=""
           className="text-blue-600 underline"
         >
           Java identifiers
-        </a>
+        </a> */}
         .
       </p>
 
@@ -42,7 +42,7 @@ export default function JavaVariablesPage() {
       <p className="mb-4">Here's how we create a variable in Java:</p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">int speedLimit = 80;</code>
+        <code className="text-black-700">int speedLimit = 80;</code>
       </pre>
 
       <p className="mb-4">
@@ -54,7 +54,7 @@ export default function JavaVariablesPage() {
         The int data type suggests that the variable can only hold integers. To
         learn more, visit{" "}
         <a
-          href="/java-programming/variables-primitive-data-types"
+          href="/docs/java/topics/Java-Fundamentals/Java-Data-Types"
           className="text-blue-600 underline"
         >
           Java data types
@@ -70,7 +70,7 @@ export default function JavaVariablesPage() {
       <p className="mb-2">You can declare variables and assign values separately:</p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">{`int speedLimit;
+        <code className="text-black-700">{`int speedLimit;
 speedLimit = 80;`}</code>
       </pre>
 
@@ -91,7 +91,7 @@ speedLimit = 80;`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">{`int speedLimit = 80;
+        <code className="text-black-700">{`int speedLimit = 80;
 ... .. ...
 speedLimit = 90;`}</code>
       </pre>
@@ -119,15 +119,7 @@ speedLimit = 90;`}</code>
 float speedLimit;`}</code>
       </pre>
 
-      <p className="mt-4">
-        To learn more, visit:{" "}
-        <a
-          href="https://stackoverflow.com/questions/27092245/can-i-change-declaration-type-for-a-variable-in-java"
-          className="text-blue-600 underline"
-        >
-          Can I change declaration type for a variable in Java?
-        </a>
-      </p>
+      
 
       {/* ======================= LITERALS ======================= */}
 
@@ -157,7 +149,7 @@ float speedLimit;`}</code>
       <p className="mb-4">For example:</p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">{`// binary
+        <code className="text-black-700">{`// binary
 int binaryNumber = 0b10010;
 // octal 
 int octalNumber = 027;
@@ -195,7 +187,7 @@ int binNumber = 0b10010; // 0b represents binary`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">{`class Main {
+        <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
 
     double myDouble = 3.4;
@@ -228,7 +220,7 @@ int binNumber = 0b10010; // 0b represents binary`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">{`char letter = 'a';`}</code>
+        <code className="text-black-700">{`char letter = 'a';`}</code>
       </pre>
 
       <p className="mb-4">
@@ -249,7 +241,7 @@ int binNumber = 0b10010; // 0b represents binary`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">{`String str1 = "Java Programming";
+        <code className="text-black-700">{`String str1 = "Java Programming";
 String str2 = "Programiz";`}</code>
       </pre>
 
@@ -266,7 +258,7 @@ String str2 = "Programiz";`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
-        <code className="text-green-700">{`boolean flag1 = false;
+        <code className="text-black-700">{`boolean flag1 = false;
 boolean flag2 = true;`}</code>
       </pre>
     </div>

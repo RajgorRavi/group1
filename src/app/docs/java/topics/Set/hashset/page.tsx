@@ -35,7 +35,7 @@ export default function JavaHashSetClass(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// HashSet with 8 capacity and 0.75 load factor
+        <code className="java hljs text-black-700">{`// HashSet with 8 capacity and 0.75 load factor
 HashSet<Integer> numbers = new HashSet<>(8, 0.75);`}</code>
       </pre>
 
@@ -54,7 +54,7 @@ HashSet<Integer> numbers = new HashSet<>(8, 0.75);`}</code>
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// HashSet with default capacity and load factor
+        <code className="java hljs text-black-700">{`// HashSet with default capacity and load factor
 HashSet<Integer> numbers1 = new HashSet<>();`}</code>
       </pre>
 
@@ -85,7 +85,7 @@ HashSet<Integer> numbers1 = new HashSet<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.HashSet;
+          <code className="java hljs text-black-700">{`import java.util.HashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -131,7 +131,7 @@ New HashSet: [2, 4, 5, 6]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.HashSet;
+          <code className="java hljs text-black-700">{`import java.util.HashSet;
 import java.util.Iterator;
 
 class Main {
@@ -180,7 +180,7 @@ HashSet using Iterator: 2, 5, 6,
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.HashSet;
+          <code className="java hljs text-black-700">{`import java.util.HashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -230,7 +230,7 @@ Are all elements removed? true
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.HashSet;
+          <code className="java hljs text-black-700">{`import java.util.HashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -272,7 +272,7 @@ Union is: [1, 2, 3, 4]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.HashSet;
+          <code className="java hljs text-black-700">{`import java.util.HashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -314,7 +314,7 @@ Intersection is: [2]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.HashSet;
+          <code className="java hljs text-black-700">{`import java.util.HashSet;
 
 class Main {
     public static void main(String[] args) {
@@ -358,7 +358,7 @@ Difference : [2]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.HashSet;
+          <code className="java hljs text-black-700">{`import java.util.HashSet;
 
 class Main {
     public static void main(String[] args) {

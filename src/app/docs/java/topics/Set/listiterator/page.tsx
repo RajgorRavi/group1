@@ -57,7 +57,7 @@ export default function JavaListIteratorInterface(): JSX.Element {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.ListIterator;
 
 class Main {
@@ -108,7 +108,7 @@ Is there any next element? true
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.ListIterator;
 
 class Main {

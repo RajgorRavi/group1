@@ -14,14 +14,14 @@ export default function JavaInstanceof() {
       <p className="text-gray-700 mb-4">
         Syntax:
       </p>
-      <pre className="bg-black-100 text-gray-900 p-3 rounded-md mb-4 border border-gray-300 overflow-x-auto">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 objectName instanceof className;
       </pre>
 
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 1: Basic Usage
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Main {
     public static void main(String[] args) {
         String name = "Programiz";
@@ -37,7 +37,7 @@ objectName instanceof className;
       <p className="text-gray-700 mb-4">
         Output:
       </p>
-      <pre className="bg-blcak-100 text-gray-900 p-3 rounded-md mb-4 border border-gray-300">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 name is an instance of String: true
 obj is an instance of Main: true
       </pre>
@@ -45,7 +45,7 @@ obj is an instance of Main: true
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 2: During Inheritance
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Animal {}
 class Dog extends Animal {}
 
@@ -64,7 +64,7 @@ class Main {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 3: With Interfaces
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`interface Animal {}
 class Dog implements Animal {}
 

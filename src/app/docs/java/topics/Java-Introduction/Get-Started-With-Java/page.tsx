@@ -57,19 +57,19 @@ export default function VariablePage() {
       <h3 className="text-xl md:text-2xl font-bold mt-10 mb-4">Step 3: Configure Environment Variables</h3>
       <p>After installation, set environment variables so your system can locate Java.</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base mt-4 mb-4">{`C:\Program Files\Java\jdk-22\bin`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`C:\Program Files\Java\jdk-22\bin`}</pre>
 
       <p>Add this path to your PATH variable and create JAVA_HOME pointing to:</p>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base mt-4">{`C:\Program Files\Java\jdk-22`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`C:\Program Files\Java\jdk-22`}</pre>
 
       <h3 className="text-xl md:text-2xl font-bold mt-10 mb-4">Step 4: Verify Installation</h3>
   
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base mb-4">{`java --version`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`java --version`}</pre>
       <p>If Java is installed correctly, version details will appear.</p>
 
       <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-5">Run Your First Java Program</h2>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class HelloWorld {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, World!");
   }
@@ -80,7 +80,7 @@ export default function VariablePage() {
       <p>Save the file as <code>HelloWorld.java</code> and run:</p>
       <br></br>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`javac HelloWorld.java
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`javac HelloWorld.java
 java HelloWorld`}</pre>
       <br></br>
 
@@ -114,7 +114,7 @@ java HelloWorld`}</pre>
       <h3 className="text-xl md:text-2xl font-bold mt-10 mb-4">How Does a Java Program Work?</h3>
       <p>Below is the simplified execution flow of a Java program:</p>
       <br></br>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`Java Source Code (.java)
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Java Source Code (.java)
         ↓
 Java Compiler (javac)
         ↓

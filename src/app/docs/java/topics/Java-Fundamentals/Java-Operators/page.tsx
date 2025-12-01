@@ -58,7 +58,7 @@ export default function JavaOperatorsContent() {
 
         <h3 className="font-semibold">Example 1: Arithmetic Operators</h3>
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     // declare variables
     int a = 12, b = 5;
@@ -142,7 +142,7 @@ age = 5;`}</code></pre>
 
         <h3 className="font-semibold">Example 2: Assignment Operators</h3>
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     // create variables
     int a = 4;
@@ -203,7 +203,7 @@ a < b;`}</code></pre>
 
         <h3 className="font-semibold">Example 3: Relational Operators</h3>
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     // create variables
     int a = 7, b = 11;
@@ -271,7 +271,7 @@ a < b;`}</code></pre>
 
         <h3 className="font-semibold">Example 4: Logical Operators</h3>
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
 
     // && operator
@@ -329,7 +329,7 @@ a < b;`}</code></pre>
 
         <h3 className="font-semibold">Example 5: Increment and Decrement Operators</h3>
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
-          <code className="text-green-700">{`class Main {
+          <code className="text-black-700">{`class Main {
   public static void main(String[] args) {
     // declare variables
     int a = 12, b = 12;

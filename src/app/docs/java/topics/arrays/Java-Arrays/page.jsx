@@ -12,7 +12,7 @@ export default function JavaArraysContent() {
           For example, if we want to store the names of 100 people then we can create an array of the string type that can store 100 names.
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">String[] array = new String[100];</code>
         </pre>
 
@@ -26,18 +26,18 @@ export default function JavaArraysContent() {
 
         <p>In Java, here is how we can declare an array.</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">dataType[] arrayName;</code>
         </pre>
 
         <ul className="list-disc list-inside">
-          <li><var>dataType</var> - it can be <a href="/java-programming/variables-primitive-data-types#data-types" className="text-blue-600 underline">primitive data types</a> like <code>int</code>, <code>char</code>, <code>double</code>, <code>byte</code>, etc. or <a href="/java-programming/class-objects" className="text-blue-600 underline">Java objects</a></li>
-          <li><var>arrayName</var> - it is an <a href="/java-programming/keywords-identifiers#identifiers" className="text-blue-600 underline">identifier</a></li>
+          <li><var>dataType</var> - it can be primitive data types like <code>int</code>, <code>char</code>, <code>double</code>, <code>byte</code>, etc. or Java objects</li>
+          <li><var>arrayName</var> - it is an identifier</li>
         </ul>
 
         <p>For example,</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">double[] data;</code>
         </pre>
 
@@ -49,7 +49,7 @@ export default function JavaArraysContent() {
           Good question! To define the number of elements that an array can hold, we have to allocate memory for the array in Java. For example,
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`// declare an array
 double[] data;
 
@@ -63,7 +63,7 @@ data = new double[10];`}</code>
           In Java, we can declare and allocate the memory of an array in one single statement. For example,
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">double[] data = new double[10];</code>
         </pre>
 
@@ -73,7 +73,7 @@ data = new double[10];`}</code>
 
         <p>In Java, we can initialize arrays during declaration. For example,</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`//declare and initialize and array
 int[] age = {12, 4, 5, 2, 5};`}</code>
         </pre>
@@ -88,7 +88,7 @@ int[] age = {12, 4, 5, 2, 5};`}</code>
           In the Java array, each memory location is associated with a number. The number is known as an array index. We can also initialize arrays in Java, using the index number. For example,
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`// declare an array
 int[] age = new int[5];
 
@@ -118,7 +118,7 @@ age[2] = 5;
 
         <p>We can access the element of an array using the index number. Here is the syntax for accessing elements of an array,</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">// access array elements
 array[index]</code>
         </pre>
@@ -127,7 +127,7 @@ array[index]</code>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Example: Access Array Elements</h3>
 
-        <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`class Main {
   public static void main(String[] args) {
   
@@ -147,7 +147,7 @@ array[index]</code>
 
         <p><strong>Output</strong></p>
 
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code>{`Accessing Elements of Array:
 First Element: 12
 Second Element: 4
@@ -169,7 +169,7 @@ Fifth Element: 5`}</code>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Example: Using For Loop</h3>
 
-        <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`class Main {
   public static void main(String[] args) {
   
@@ -187,28 +187,28 @@ Fifth Element: 5`}</code>
         </pre>
 
         <p><strong>Output</strong></p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">{`Using for Loop:
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Using for Loop:
 12
 4
 5`}</pre>
 
         <p>
-          In the above example, we are using the <a href="/java-programming/for-loop" className="text-blue-600 underline">for Loop in Java</a> to iterate through each element of the array. Notice the expression inside the loop,
+          In the above example, we are using the for Loop in Java to iterate through each element of the array. Notice the expression inside the loop,
         </p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">age.length</code>
         </pre>
 
         <p>Here, we are using the <code>length</code> property of the array to get the size of the array.</p>
 
         <p>
-          We can also use the <a href="/java-programming/enhanced-for-loop" className="text-blue-600 underline">for-each loop</a> to iterate through the elements of an array. For example,
+          We can also use the for-each loop to iterate through the elements of an array. For example,
         </p>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">Example: Using the for-each Loop</h3>
 
-        <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`class Main {
   public static void main(String[] args) {
   
@@ -226,7 +226,7 @@ Fifth Element: 5`}</code>
         </pre>
 
         <p><strong>Output</strong></p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">{`Using for-each Loop:
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Using for-each Loop:
 12
 4
 5`}</pre>
@@ -263,7 +263,7 @@ Fifth Element: 5`}</code>
         </pre>
 
         <p><strong>Output</strong></p>
-        <pre className="bg-gray-100 p-3 rounded overflow-auto">{`Sum = 36
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Sum = 36
 Average = 3.6`}</pre>
 
         <p>
@@ -272,19 +272,19 @@ Average = 3.6`}</pre>
 
         <p>Inside the loop, we are calculating the sum of each element. Notice the line,</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">int arrayLength = numbers.length;</code>
         </pre>
 
         <p>
-          Here, we are using the <a href="http://stackoverflow.com/questions/8755812/array-length-in-java" className="text-blue-600 underline">length attribute</a> of the array to calculate the size of the array. We then calculate the average using:
+          Here, we are using thelength attribute of the array to calculate the size of the array. We then calculate the average using:
         </p>
 
         <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
           <code className="java hljs">average = ((double)sum / (double)arrayLength);</code>
         </pre>
 
-        <p>As you can see, we are converting the <code>int</code> value into <code>double</code>. This is called type casting in Java. To learn more about typecasting, visit <a href="/java-programming/typecasting" className="text-blue-600 underline">Java Type Casting</a>.</p>
+        <p>As you can see, we are converting the <code>int</code> value into <code>double</code>. This is called type casting in Java.</p>
 
         <hr className="my-6 border-gray-300" />
 
@@ -296,26 +296,17 @@ Average = 3.6`}</pre>
 
         <p>A multidimensional array is an array of arrays. That is, each element of a multidimensional array is an array itself. For example,</p>
 
-        <pre className="bg-gray-100 p-3 rounded max-h-[600px] overflow-auto">
+        <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
           <code className="java hljs">{`double[][] matrix = {
   {1.2, 4.3, 4.0}, 
   {4.1, -1.1}
 };`}</code>
         </pre>
 
-        <p>Here, we have created a multidimensional array named matrix. It is a 2-dimensional array. To learn more, visit the <a href="/java-programming/multidimensional-array" className="text-blue-600 underline">Java multidimensional array</a>.</p>
+        <p>Here, we have created a multidimensional array named matrix. It is a 2-dimensional array.</p>
 
-        <hr className="my-6 border-gray-300" />
+      
 
-        <p><strong>Also Read:</strong></p>
-
-        <ul className="list-disc list-inside">
-          <li><a href="/java-programming/copy-arrays" className="text-blue-600 underline">Java Copy Array</a></li>
-          <li><a href="/java-programming/examples/print-array" className="text-blue-600 underline">Java Program to Print an Array</a></li>
-          <li><a href="/java-programming/examples/concatenate-two-arrays" className="text-blue-600 underline">Java Program to Concatenate two Arrays</a></li>
-          <li><a href="/java-programming/examples/convert-list-array" className="text-blue-600 underline">Java ArrayList to Array and Array to ArrayList</a></li>
-          <li><a href="/java-programming/arraylist" className="text-blue-600 underline">Java Dynamic Array</a></li>
-        </ul>
 
       </div>
     </div>

@@ -57,7 +57,7 @@ export default function JavaList(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// ArrayList implementation of List
+        <code className="java hljs text-black-700">{`// ArrayList implementation of List
 List<String> list1 = new ArrayList<>();
 
 // LinkedList implementation of List
@@ -147,7 +147,7 @@ List<String> list2 = new LinkedList<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.List;
+          <code className="java hljs text-black-700">{`import java.util.List;
 import java.util.ArrayList;
 
 class Main {
@@ -194,7 +194,7 @@ Removed Element: 2`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.List;
+          <code className="java hljs text-black-700">{`import java.util.List;
 import java.util.LinkedList;
 
 class Main {

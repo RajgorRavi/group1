@@ -11,7 +11,7 @@ export default function JavaMethodOverloading() {
         In Java, <strong>method overloading</strong> allows two or more methods to have the same name but differ in <strong>parameters</strong> (different number, different type, or both). Overloaded methods may have the same or different return types.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`void func() { ... }
 void func(int a) { ... }
 float func(double a) { ... }
@@ -32,7 +32,7 @@ float func(int a, float b) { ... }`}
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 1: Overloading by changing the number of parameters
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class MethodOverloading {
     private static void display(int a){
         System.out.println("Arguments: " + a);
@@ -48,12 +48,13 @@ float func(int a, float b) { ... }`}
     }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6"><strong>Output:</strong><br />Arguments: 1<br />Arguments: 1 and 4</p>
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto"><strong>Output:</strong><br />Arguments: 1<br />Arguments: 1 and 4</p>
 
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 2: Overloading by changing the data type of parameters
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class MethodOverloading {
     private static void display(int a){
         System.out.println("Got Integer data.");
@@ -69,12 +70,13 @@ float func(int a, float b) { ... }`}
     }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6"><strong>Output:</strong><br />Got Integer data.<br />Got String object.</p>
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto"><strong>Output:</strong><br />Got Integer data.<br />Got String object.</p>
 
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Example 3: Real-world example
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm sm:text-base border border-gray-700 mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class HelperService {
     private String formatNumber(int value) {
         return String.format("%d", value);
@@ -96,7 +98,8 @@ float func(int a, float b) { ... }`}
     }
 }`}
       </pre>
-      <p className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6"><strong>Output:</strong><br />500<br />89.993<br />550.00</p>
+      <h1>Output </h1>
+      <p className="bg-gray-200 p-4 rounded-lg overflow-auto"><strong>Output:</strong><br />500<br />89.993<br />550.00</p>
 
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">
         Important Points

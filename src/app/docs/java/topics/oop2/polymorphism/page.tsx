@@ -1,3 +1,5 @@
+import Image from "next/image";
+import polymorphims from "./polymorphims.png"
 export default function JavaPolymorphismPage() {
   return (
     <div className="editor-contents text-black">
@@ -20,7 +22,7 @@ export default function JavaPolymorphismPage() {
       </h2>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Polygon {
+        <code className="text-black-700">{`class Polygon {
 
   // method to render a shape
   public void render() {
@@ -146,7 +148,7 @@ Rendering Circle...`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Language {
+        <code className="text-black-700">{`class Language {
   public void displayInfo() {
     System.out.println("Common English Language");
   }
@@ -199,8 +201,8 @@ Common English Language`}</code>
       </p>
 
       <figure className="my-4">
-        <img
-          src="/sites/tutorial2program/files/java-polymorphism-implementation.png"
+        <Image
+          src={polymorphims}
           title="Java Polymorphism Implementation"
           alt="displayInfo() method prints Common English Language when called using l1 object and when using j1 object, it prints Java Programming Language"
           width="520"
@@ -229,7 +231,7 @@ Common English Language`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`void func() { ... }
+        <code className="text-black-700">{`void func() { ... }
 void func(int a) { ... }
 float func(double a) { ... }
 float func(int a, float b) { ... }`}</code>
@@ -245,7 +247,7 @@ float func(int a, float b) { ... }`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class Pattern {
+        <code className="text-black-700">{`class Pattern {
 
   // method without parameter
   public void display() {
@@ -291,7 +293,7 @@ class Main {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`// method with no arguments
+        <code className="text-black-700">{`// method with no arguments
 display() {...}
 
 // method with a single char type argument
@@ -357,7 +359,7 @@ display(char symbol) {...}`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`int a = 5;
+        <code className="text-black-700">{`int a = 5;
 int b = 6;
 
 // + with numbers
@@ -370,7 +372,7 @@ int sum = a + b;  // Output = 11`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`String first = "Java ";
+        <code className="text-black-700">{`String first = "Java ";
 String second = "Programming";
 
 // + with strings
@@ -410,7 +412,7 @@ name = first + second;  // Output = Java Programming`}</code>
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`class ProgrammingLanguage {
+        <code className="text-black-700">{`class ProgrammingLanguage {
   public void display() {
     System.out.println("I am Programming Language.");
   }

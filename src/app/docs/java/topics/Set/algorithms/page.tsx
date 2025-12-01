@@ -40,7 +40,7 @@ export default function JavaAlgorithms(): JSX.Element {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.Collections;
 
 class Main {
@@ -91,7 +91,7 @@ Sorted ArrayList: [2, 3, 4]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.Collections;
 
 class Main {
@@ -146,7 +146,7 @@ ArrayList using shuffle: [2, 1, 3]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Collections;
+          <code className="java hljs text-black-700">{`import java.util.Collections;
 import java.util.ArrayList;
 
 class Main {
@@ -213,7 +213,7 @@ ArrayList2 using copy(): [0, 0]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Collections;
+          <code className="java hljs text-black-700">{`import java.util.Collections;
 import java.util.ArrayList;
 
 class Main {
@@ -262,7 +262,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Collections;
+          <code className="java hljs text-black-700">{`import java.util.Collections;
 import java.util.ArrayList;
 
 class Main {
@@ -313,7 +313,7 @@ Two lists are disjoint: true
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Collections;
+          <code className="java hljs text-black-700">{`import java.util.Collections;
 import java.util.ArrayList;
 
 class Main {

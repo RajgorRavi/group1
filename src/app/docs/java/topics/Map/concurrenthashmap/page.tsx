@@ -13,10 +13,10 @@ export default function ConcurrentHashMapPage() {
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Create a ConcurrentHashMap</h2>
       <p className="text-gray-700">First, import the package:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`import java.util.concurrent.ConcurrentHashMap;`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`import java.util.concurrent.ConcurrentHashMap;`}</pre>
 
       <p className="text-gray-700">Example with capacity and load factor:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`ConcurrentHashMap<Key, Value> numbers = new ConcurrentHashMap<>(8, 0.6f);`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`ConcurrentHashMap<Key, Value> numbers = new ConcurrentHashMap<>(8, 0.6f);`}</pre>
 
       <p className="text-gray-700">
         <strong>Key</strong> - unique identifier for elements. <strong>Value</strong> - element associated with key. <br />
@@ -24,14 +24,14 @@ export default function ConcurrentHashMapPage() {
       </p>
 
       <p className="text-gray-700">Default ConcurrentHashMap:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`ConcurrentHashMap<Key, Value> numbers1 = new ConcurrentHashMap<>();`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`ConcurrentHashMap<Key, Value> numbers1 = new ConcurrentHashMap<>();`}</pre>
       <ul className="list-disc ml-6 text-gray-700">
         <li>Default capacity: 16</li>
         <li>Default load factor: 0.75</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Creating ConcurrentHashMap from Other Maps</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`import java.util.concurrent.ConcurrentHashMap;
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`import java.util.concurrent.ConcurrentHashMap;
 import java.util.HashMap;
 
 class Main {
@@ -56,7 +56,7 @@ class Main {
       </ul>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Example:</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`ConcurrentHashMap<String, Integer> numbers = new ConcurrentHashMap<>();
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`ConcurrentHashMap<String, Integer> numbers = new ConcurrentHashMap<>();
 numbers.put("One", 1);
 numbers.putIfAbsent("Two", 2);
 numbers.putAll(anotherMap);`}</pre>
@@ -85,7 +85,7 @@ numbers.putAll(anotherMap);`}</pre>
       </ul>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Example of forEach and reduce:</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`numbers.forEach(4, (k, v) -> System.out.println(k + " => " + v));
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`numbers.forEach(4, (k, v) -> System.out.println(k + " => " + v));
 int sum = numbers.reduce(4, (k, v) -> v, (v1, v2) -> v1 + v2);`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">ConcurrentHashMap vs HashMap</h2>

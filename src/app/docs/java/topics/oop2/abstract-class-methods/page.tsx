@@ -16,7 +16,7 @@ export default function JavaAbstractClassAndMethodsPage() {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`// create an abstract class
+        <code className="text-black-700">{`// create an abstract class
 abstract class Language {
   // fields and methods
 }
@@ -33,7 +33,7 @@ Language obj = new Language();`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`abstract class Language {
+        <code className="text-black-700">{`abstract class Language {
 
   // abstract method
   abstract void method1();
@@ -63,7 +63,7 @@ Language obj = new Language();`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`abstract void display();`}</code>
+        <code className="text-black-700">{`abstract void display();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -77,7 +77,7 @@ Language obj = new Language();`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`// error
+        <code className="text-black-700">{`// error
 // class should be abstract
 class Language {
 
@@ -99,7 +99,7 @@ class Language {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`abstract class Language {
+        <code className="text-black-700">{`abstract class Language {
 
   // method of abstract class
   public void display() {
@@ -139,7 +139,7 @@ class Main extends Language {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`obj.display();`}</code>
+        <code className="text-black-700">{`obj.display();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -161,7 +161,7 @@ class Main extends Language {
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`abstract class Animal {
+        <code className="text-black-700">{`abstract class Animal {
   abstract void makeSound();
 
   public void eat() {
@@ -233,7 +233,7 @@ I can eat.`}</code>
       </p>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`abstract class Animal {
+        <code className="text-black-700">{`abstract class Animal {
   Animal() {
     ….
   }
@@ -301,7 +301,7 @@ class Dog extends Animal {
       </h3>
 
       <pre className="bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]">
-        <code className="text-green-700">{`abstract class MotorBike {
+        <code className="text-black-700">{`abstract class MotorBike {
   abstract void brake();
 }
 
@@ -397,7 +397,7 @@ SportsBike Brake`}</code>
           We can access the static attributes and methods of an abstract
           class using the reference of the abstract class. For example,
           <pre className="bg-gray-300 p-2 rounded-lg mt-1 inline-block">
-            <code className="text-green-800">{`Animal.staticMethod();`}</code>
+            <code className="text-black-800">{`Animal.staticMethod();`}</code>
           </pre>
         </li>
       </ul>

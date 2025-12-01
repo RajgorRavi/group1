@@ -74,7 +74,7 @@ export default function JavaSetInterface(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// Set implementation using HashSet
+        <code className="java hljs text-black-700">{`// Set implementation using HashSet
 Set<String> animals = new HashSet<>();`}</code>
       </pre>
 
@@ -131,7 +131,7 @@ Set<String> animals = new HashSet<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Set;
+          <code className="java hljs text-black-700">{`import java.util.Set;
 import java.util.HashSet;
 
 class Main {
@@ -175,7 +175,7 @@ Union is: [1, 2, 3]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Set;
+          <code className="java hljs text-black-700">{`import java.util.Set;
 import java.util.TreeSet;
 import java.util.Iterator;
 

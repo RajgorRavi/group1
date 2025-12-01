@@ -1,3 +1,5 @@
+import Image from "next/image";
+import java_for_loop from "./java-for-loop.png"; 
 export default function JavaForLoopContent() {
   return (
     <div className="editor-contents text-black">
@@ -11,8 +13,8 @@ export default function JavaForLoopContent() {
         <p>In Java, there are three types of loops.</p>
         <ul className="list-disc list-inside">
           <li>for loop</li>
-          <li><a href="/java-programming/do-while-loop#syntax-while" className="text-blue-600 underline">while loop</a></li>
-          <li><a href="/java-programming/do-while-loop#do-while-loop" className="text-blue-600 underline">do...while loop</a></li>
+          <li><a href="/docs/java/topics/flow/Java-While-Dowhile" className="text-blue-600 underline">while loop</a></li>
+          <li><a href="/docs/java/topics/flow/Java-While-Dowhile" className="text-blue-600 underline">do...while loop</a></li>
         </ul>
 
         <p>This tutorial focuses on the <code>for</code> loop. You will learn about the other types of loops in the upcoming tutorials.</p>
@@ -30,7 +32,7 @@ export default function JavaForLoopContent() {
 
         <p>Here,</p>
         <ol className="list-decimal list-inside">
-          <li>The <var>initialExpression</var> initializes and/or declares <a href="/java-programming/variables-literals" className="text-blue-600 underline">variables</a> and executes only once.</li>
+          <li>The <var>initialExpression</var> initializes and/or declares <a href="/docs/java/topics/Java-Fundamentals/Java-variables-and-Literals" className="text-blue-600 underline">variables</a> and executes only once.</li>
           <li>The <code>condition</code> is evaluated. If the <code>condition</code> is <code>true</code>, the body of the <code>for</code> loop is executed.</li>
           <li>The <code>updateExpression</code> updates the value of <code>initialExpression</code>.</li>
           <li>The <strong>condition</strong> is evaluated again. The process continues until the <strong>condition</strong> is <code>false</code>.</li>
@@ -39,7 +41,7 @@ export default function JavaForLoopContent() {
         <hr className="my-6 border-gray-300" />
 
         <figure>
-          <img src="/sites/tutorial2program/files/java-for-loop.png" alt="Working of for loop in Java with flowchart" title="Flowchart of Java for loop" width="320" height="493" />
+          <Image src={java_for_loop} alt="Working of for loop in Java with flowchart" title="Flowchart of Java for loop" width="320" height="493" />
           <figcaption>Flowchart of Java for loop</figcaption>
         </figure>
 
@@ -267,7 +269,7 @@ class Main {
 
         <h2>Java for-each Loop</h2>
 
-        <p>The Java for loop has an alternative syntax that makes it easy to iterate through <a href="/java-programming/arrays" className="text-blue-600 underline">arrays</a> and <a href="/java-programming/collections" className="text-blue-600 underline">collections</a>. For example,</p>
+        <p>The Java for loop has an alternative syntax that makes it easy to iterate through <a href="/docs/java/topics/arrays/Java-Arrays" className="text-blue-600 underline">arrays</a> and <a href="/docs/java/topics/List/collection-framework" className="text-blue-600 underline">collections</a>. For example,</p>
 
         <pre className="bg-gray-200 p-4 rounded max-h-[600px] overflow-auto">
           <code className="java hljs">{`// print array elements 
@@ -300,7 +302,7 @@ class Main {
           In the first iteration of the loop, <var>number</var> will be <strong>3</strong>, <var>number</var> will be <strong>7</strong> in second iteration and so on.
         </p>
 
-        <p>To learn more, visit <a href="/java-programming/enhanced-for-loop" className="text-blue-600 underline">Java for-each Loop</a>.</p>
+        <p>To learn more, visit <a href="/docs/java/topics/flow/Java-For-Each-Loop" className="text-blue-600 underline">Java for-each Loop</a>.</p>
 
         <hr className="my-6 border-gray-300" />
 
@@ -334,10 +336,10 @@ class Infinite {
         <p><strong>Also Read:</strong></p>
 
         <ul className="list-disc list-inside">
-          <li><a href="/java-programming/enhanced-for-loop" className="text-blue-600 underline">Enhanced For Loop</a></li>
-          <li><a href="/java-programming/nested-loop" className="text-blue-600 underline">Nested Loop</a></li>
-          <li><a href="/java-programming/break-statement" className="text-blue-600 underline">Break Statement</a></li>
-          <li><a href="/java-programming/continue-statement" className="text-blue-600 underline">Continue Statement</a></li>
+          <li><a href="/docs/java/topics/flow/Java-For-Each-Loop" className="text-blue-600 underline">Enhanced For Loop</a></li>
+          <li><a href="/docs/java/topics/flow/Java-For-Loop" className="text-blue-600 underline">Nested Loop</a></li>
+          <li><a href="/docs/java/topics/flow/Java-Break-Statement" className="text-blue-600 underline">Break Statement</a></li>
+          <li><a href="/docs/java/topics/flow/Java-Continue-Statement" className="text-blue-600 underline">Continue Statement</a></li>
         </ul>
 
       </div>

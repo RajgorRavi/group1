@@ -46,7 +46,7 @@ export default function JavaIteratorInterface(): JSX.Element {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-black-700">{`import java.util.ArrayList;
 import java.util.Iterator;
 
 class Main {
@@ -97,7 +97,7 @@ Updated ArrayList: 3, 2,
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`iterate.forEachRemaining((value) -> System.out.print(value + ", "));`}</code>
+        <code className="java hljs text-black-700">{`iterate.forEachRemaining((value) -> System.out.print(value + ", "));`}</code>
       </pre>
 
       <p className="mb-4">

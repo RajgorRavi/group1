@@ -1,3 +1,5 @@
+import Image from "next/image";
+import java_switch_case_implementation from "./java-switch-case-implementation.png"; 
 export default function JavaSwitchStatementContent() {
   return (
     <div className="editor-contents text-black">
@@ -39,7 +41,7 @@ export default function JavaSwitchStatementContent() {
         </ul>
 
         <div className="bg-yellow-100 p-4 rounded border border-yellow-300">
-          <strong>Note</strong>: The working of the switch-case statement is similar to the <a href="/java-programming/if-else-statement#if-else-ladder" className="text-blue-600 underline">Java if...else...if ladder</a>. However, the syntax of the <code>switch</code> statement is cleaner and much easier to read and write.
+          <strong>Note</strong>: The working of the switch-case statement is similar to the <a href="/docs/java/topics/flow/Java-If-Else" className="text-blue-600 underline">Java if...else...if ladder</a>. However, the syntax of the <code>switch</code> statement is cleaner and much easier to read and write.
         </div>
 
         <hr className="my-6 border-gray-300" />
@@ -109,7 +111,7 @@ break;`}</code>
         <h2 id="flowchart" className="text-2xl font-semibold mt-6 mb-2">Flowchart of switch Statement</h2>
 
         <figure>
-          <img src="/sites/tutorial2program/files/java-switch-case-implementation.png" alt="Flowchart of the Java switch statement" title="Flow chart of the Java switch statement" width="420" height="668" />
+          <Image src={java_switch_case_implementation} alt="Flowchart of the Java switch statement" title="Flow chart of the Java switch statement" width="420" height="668" />
           <figcaption>Flow chart of the Java switch statement</figcaption>
         </figure>
 
@@ -171,7 +173,7 @@ Default case`}</code>
         <p>Hence, all the cases after <code>case 2</code> are also executed.</p>
 
         <p>
-          This is why the <code>break</code> statement is needed to terminate the <strong>switch-case</strong> statement after the matching case. To learn more, visit <a href="/java-programming/break-statement" className="text-blue-600 underline">Java break Statement</a>.
+          This is why the <code>break</code> statement is needed to terminate the <strong>switch-case</strong> statement after the matching case. To learn more, visit <a href="/docs/java/topics/flow/Java-Break-Statement" className="text-blue-600 underline">Java break Statement</a>.
         </p>
 
         <hr className="my-6 border-gray-300" />
@@ -225,19 +227,16 @@ Default case`}</code>
           <p><strong>Note</strong>: The Java switch statement only works with:</p>
 
           <ul className="list-disc list-inside">
-            <li><a href="/java-programming/variables-primitive-data-types#data-types" className="text-blue-600 underline">Primitive data types</a>: byte, short, char, and int</li>
-            <li><a href="/java-programming/enums" className="text-blue-600 underline">Enumerated types</a></li>
-            <li><a href="/java-programming/string" className="text-blue-600 underline">String Class</a></li>
-            <li><a href="/java-programming/wrapper" className="text-blue-600 underline">Wrapper Classes</a>: Character, Byte, Short, and Integer.</li>
+            <li><a href="/docs/java/topics/Java-Fundamentals/Java-Data-Types" className="text-blue-600 underline">Primitive data types</a>: byte, short, char, and int</li>
+            <li><a href="/docs/java/topics/oop3/enums" className="text-blue-600 underline">Enumerated types</a></li>
+            <li><a href="/docs/java/topics/oop1/string" className="text-blue-600 underline">String Class</a></li>
+            {/* <li><a href="/java-programming/wrapper" className="text-blue-600 underline">Wrapper Classes</a>: Character, Byte, Short, and Integer.</li> */}
           </ul>
         </div>
 
-        <hr className="my-6 border-gray-300" />
+       
 
-        <p><strong>Also Read:</strong></p>
-        <ul className="list-disc list-inside">
-          <li><a href="/java-programming/examples/implement-switch-on-strings" title="switch Implementation on Strings" className="text-blue-600 underline">Implementation of switch...case on Strings</a></li>
-        </ul>
+       
 
       </div>
     </div>
