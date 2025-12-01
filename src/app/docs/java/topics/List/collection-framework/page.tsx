@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function JavaCollectionsFramework(): JSX.Element {
-  // Common Tailwind classes for the code block style used previously
+   
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
 
   return (

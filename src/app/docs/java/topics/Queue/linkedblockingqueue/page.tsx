@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function JavaLinkedBlockingQueue(): JSX.Element {
-  // Common Tailwind classes for code block and output styling
+  
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
   const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
 

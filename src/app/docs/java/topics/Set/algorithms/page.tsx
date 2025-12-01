@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function JavaAlgorithms(): JSX.Element {
-  // Common Tailwind classes for code block and output styling
+  
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
   const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
-  const noteClass = "bg-yellow-100 p-4 rounded-lg border border-yellow-300 mt-4"; // Custom class for note-tip
+  const noteClass = "bg-yellow-100 p-4 rounded-lg border border-yellow-300 mt-4";
 
   return (
     <div className="editor-contents text-black">
@@ -45,11 +45,7 @@ import java.util.Collections;
 
 class Main {
     public static void main(String[] args) {
-
-        // Creating an array list
         ArrayList<Integer> numbers = new ArrayList<>();
-
-        // Add elements
         numbers.add(4);
         numbers.add(2);
         numbers.add(3);
@@ -91,7 +87,8 @@ Sorted ArrayList: [2, 3, 4]
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.ArrayList;
+          <code className="java hljs text-green-700">{`
+import java.util.ArrayList;
 import java.util.Collections;
 
 class Main {

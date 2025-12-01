@@ -64,7 +64,7 @@ class Main {
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/method-overriding-in-java.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/method-overriding-in-java.png"
           title="Method Overriding in Java"
           alt="Working of method overriding in Java."
           width="450"

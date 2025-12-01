@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function JavaCollectionInterface(): JSX.Element {
-  // Common Tailwind classes for the inline highlighted box
+  
   const boxClass = "px-1 py-0.5 rounded border bg-gray-50 text-gray-700 border-gray-300";
 
   return (

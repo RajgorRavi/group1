@@ -1,11 +1,11 @@
 import React from "react";
 
 export default function JavaLinkedList(): JSX.Element {
-  // Common Tailwind classes for code block and output styling
+  
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
   const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
 
-  // Note: Using an approximate yellow background for the final Note section
+  
   const noteBlockClass = "bg-yellow-100 p-4 rounded-lg border border-yellow-300 mt-4";
 
   return (

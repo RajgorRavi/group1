@@ -118,7 +118,7 @@ labrador.eat();`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-inheritance-implementation.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-inheritance-implementation.png"
           title="Java Inheritance Implementation"
           alt="Subclass Dog can access the field and method of the superclass Animal."
           width="460"
@@ -126,6 +126,7 @@ labrador.eat();`}</code>
           className="mx-auto"
         />
         <figcaption className="text-center text-sm text-gray-600 mt-2">
+          
           Java Inheritance Implementation
         </figcaption>
       </figure>
@@ -457,7 +458,7 @@ labrador.display();`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-single-inheritance.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-single-inheritance.png"
           title="Java Single Inheritance"
           alt="Class A inherits from class B."
           width="200"
@@ -482,7 +483,7 @@ labrador.display();`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-multilevel-inheritance.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-multilevel-inheritance.png"
           title="Java Multilevel Inheritance"
           alt="Class B inherits from class A and class C inherits from class B."
           width="240"
@@ -507,7 +508,7 @@ labrador.display();`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-hierarchical-inheritance.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-hierarchical-inheritance.png"
           title="Java Hierarchical Inheritance"
           alt="Both classes B and C inherit from the single class A."
           width="340"
@@ -532,7 +533,7 @@ labrador.display();`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-multiple-inheritance.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-multiple-inheritance.png"
           title="Java Multiple Inheritance"
           alt="Class C inherits from both classes A and B."
           width="360"
@@ -560,7 +561,7 @@ labrador.display();`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-hybrid-inheritance.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-hybrid-inheritance.png"
           title="Java Hybrid Inheritance"
           alt="Class B and C inherit from a single class A and class D inherits from both the class B and C."
           width="360"

@@ -103,7 +103,7 @@ class Main {
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-overriding-example.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-overriding-example.png"
           title="Java overriding example"
           alt="Java overriding example"
           width="500"
@@ -175,7 +175,7 @@ I am an animal`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/call-superclass-method.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/call-superclass-method.png"
           title="Working of super in Java"
           alt="Working of super in Java"
           width="500"
@@ -335,7 +335,7 @@ I am a dog`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/super%28%29-example.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/super%28%29-example.png"
           title="Working of super() in Java"
           alt="Working of super() in Java"
           width="450"
@@ -431,7 +431,7 @@ I am a dog`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/parameterized-super-example.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/parameterized-super-example.png"
           title="Working of super in case of parameterized constructor."
           alt="Working of super in case of parameterized constructor."
           width="450"

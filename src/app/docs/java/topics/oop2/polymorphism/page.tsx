@@ -200,7 +200,7 @@ Common English Language`}</code>
 
       <figure className="my-4">
         <img
-          src="/sites/tutorial2program/files/java-polymorphism-implementation.png"
+          src="https://www.programiz.com/sites/tutorial2program/files/java-polymorphism-implementation.png"
           title="Java Polymorphism Implementation"
           alt="displayInfo() method prints Common English Language when called using l1 object and when using j1 object, it prints Java Programming Language"
           width="520"

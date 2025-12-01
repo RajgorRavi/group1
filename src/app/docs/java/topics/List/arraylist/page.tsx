@@ -1,11 +1,8 @@
 import React from "react";
 
 export default function JavaArrayList(): JSX.Element {
-  // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
   const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
-
-  // Class for the collapsible FAQ headers (no need for the full collapse logic here)
   const faqHeaderClass = "text-lg font-semibold cursor-pointer border-b border-gray-300 py-3 mb-2";
 
   return (
