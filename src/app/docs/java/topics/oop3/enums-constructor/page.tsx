@@ -11,7 +11,7 @@ export default function JavaEnumConstructorPage() {
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Example: Enum Constructor</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`enum Size {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`enum Size {
 
    // enum constants calling the enum constructors 
    SMALL("The size is small."),
@@ -39,7 +39,7 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`The size is small.`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`The size is small.`}</pre>
 
       <p className="text-gray-700 mt-4">
         In this example, the enum <code>Size</code> contains a private constructor that accepts a string value. The constants like

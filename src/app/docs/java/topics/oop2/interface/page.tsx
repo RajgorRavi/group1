@@ -276,7 +276,7 @@ class Rectangle implements Line, Polygon {
           example,
         </p>
 
-        <pre className="bg-gray-300 p-2 rounded-lg overflow-auto max-h-[600px]">
+        <pre className="bg-yellow-200 p-2 rounded-lg overflow-auto max-h-[600px]">
           <code className="text-black-800">{`interface Language {
   
   // by default public static final
@@ -333,6 +333,7 @@ class Rectangle implements Line, Polygon {
         track all these classes and make changes to them. This is not only
         tedious but error-prone as well.
       </p>
+      
 
       <p className="mb-4">
         To resolve this, Java introduced default methods. Default methods are

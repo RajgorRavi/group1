@@ -17,7 +17,7 @@ export default function JavaEnumsPage() {
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Example Declaration</h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`enum Size { 
    SMALL, MEDIUM, LARGE, EXTRALARGE 
 }`}
@@ -36,7 +36,7 @@ export default function JavaEnumsPage() {
       {/* Example 1 */}
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Example 1: Java Enum</h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`enum Size {
    SMALL, MEDIUM, LARGE, EXTRALARGE
 }
@@ -51,7 +51,7 @@ class Main {
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`SMALL
 MEDIUM`}
       </pre>
@@ -61,7 +61,7 @@ MEDIUM`}
       </p>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Enum Variables</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700 text-sm overflow-x-auto">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`Size pizzaSize;
 
 pizzaSize = Size.SMALL;
@@ -75,7 +75,7 @@ pizzaSize = Size.EXTRALARGE;`}
         Example 2: Enum with switch  statement
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`enum Size {
   SMALL, MEDIUM, LARGE, EXTRALARGE
 }
@@ -112,7 +112,7 @@ class Main {
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`I ordered a medium size pizza.`}
       </pre>
 
@@ -128,7 +128,7 @@ class Main {
         fields, <a href="/java-programming/if-else-statement" className="text-blue-600 ">methods</a>, and <a href="/java-programming/if-else-statement" className="text-blue-600 ">constructors</a>.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`enum Size {
   SMALL, MEDIUM, LARGE, EXTRALARGE;
 
@@ -149,7 +149,7 @@ class Main {
       </pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`The size of the pizza is small`}
       </pre>
 
@@ -178,7 +178,7 @@ class Main {
         Enums replace the need for <code>int</code> constants by offering type safety and more readable code.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`enum Size {
    SMALL, MEDIUM, LARGE, EXTRALARGE
 }`}

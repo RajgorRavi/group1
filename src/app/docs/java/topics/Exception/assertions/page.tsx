@@ -12,7 +12,7 @@ export default function JavaAssertions() {
       </p>
 
       <h2 className="text-3xl font-semibold mt-8 mb-3">Basic Syntax</h2>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`assert condition;`}
       </pre>
 
@@ -24,7 +24,7 @@ export default function JavaAssertions() {
       <h2 className="text-3xl font-semibold mt-10 mb-3">Enabling Assertions</h2>
       <p className="mb-4">Assertions are disabled by default. To enable them:</p>
       
-      <pre className="bg-black text-white p-4 rounded-lg mb-4 overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg mb-4 overflow-x-auto text-sm">
 {`java -ea:arguments
 java -enableassertions:arguments`}
       </pre>
@@ -35,7 +35,7 @@ java -enableassertions:arguments`}
       </p>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">Example 1: Simple Assertion</h3>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`class Main {
   public static void main(String args[]) {
     String[] weekends = {"Friday", "Saturday", "Sunday"};
@@ -48,12 +48,12 @@ java -enableassertions:arguments`}
       <h2 className="text-3xl font-semibold mt-10 mb-3">
         Another Form of Assertion
       </h2>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`assert condition : expression;`}
       </pre>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">Example 2: Assertion with Message</h3>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`class Main {
   public static void main(String args[]) {
     String[] weekends = {"Friday", "Saturday", "Sunday"};
@@ -66,7 +66,7 @@ java -enableassertions:arguments`}
       <h2 className="text-3xl font-semibold mt-12 mb-3">
         Enabling Assertions for Classes and Packages
       </h2>
-      <pre className="bg-black text-white p-4 rounded-lg mb-4 overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg mb-4 overflow-x-auto text-sm">
 {`java -ea
 java -ea Main
 java -ea:AnimalClass Main
@@ -75,7 +75,7 @@ java -ea:... Main`}
       </pre>
 
       <h2 className="text-3xl font-semibold mt-12 mb-3">Disabling Assertions</h2>
-      <pre className="bg-black text-white p-4 rounded-lg mb-4 overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg mb-4 overflow-x-auto text-sm">
 {`java -da
 java -disableassertions
 java -dsa
@@ -93,7 +93,7 @@ java -disablesystemassertions`}
       <h2 className="text-3xl font-semibold mt-10 mb-3">When to Use Assertions</h2>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">1. Unreachable Code</h3>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`void unreachableCodeMethod() {
   System.out.println("Reachable code");
   return;
@@ -104,13 +104,13 @@ java -disablesystemassertions`}
       </pre>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">Switch Example</h3>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`default:
   assert false : dayOfWeek + " is invalid day";`}
       </pre>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">2. Documenting Assumptions</h3>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`if (i % 2 == 0) {
   ...
 } else {
@@ -130,7 +130,7 @@ java -disablesystemassertions`}
       <h3 className="text-2xl font-semibold mt-6 mb-2">
         2. Expressions That Affect Program Behavior
       </h3>
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`ArrayList<String> weekdays = new ArrayList<>(Arrays.asList(...));
 ArrayList<String> weekends = new ArrayList<>(Arrays.asList(...));
 
@@ -140,7 +140,7 @@ assert weekdays.removeAll(weekends); // ❌ Don't do this
 
       <p className="mb-4">Instead, assign first:</p>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">
 {`boolean weekendsRemoved = weekdays.removeAll(weekends);
 assert weekendsRemoved;`}
       </pre>

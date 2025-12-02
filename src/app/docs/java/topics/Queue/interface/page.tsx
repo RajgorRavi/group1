@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaQueueInterface(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
 
   return (
     <div className="editor-contents text-black">
@@ -82,7 +82,7 @@ export default function JavaQueueInterface(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// LinkedList implementation of Queue
+        <code className="java hljs ">{`// LinkedList implementation of Queue
 Queue<String> animal1 = new LinkedList<>();
 
 // Array implementation of Queue
@@ -123,7 +123,7 @@ Queue<String> animal3 = new PriorityQueue<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Queue;
+          <code className="java hljs ">{`import java.util.Queue;
 import java.util.LinkedList;
 
 class Main {
@@ -169,7 +169,7 @@ Updated Queue: [2, 3]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Queue;
+          <code className="java hljs ">{`import java.util.Queue;
 import java.util.PriorityQueue;
 
 class Main {

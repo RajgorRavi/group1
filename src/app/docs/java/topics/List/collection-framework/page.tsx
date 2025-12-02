@@ -188,16 +188,12 @@ class Main {
     }
 }`}</code>
         </pre>
-        <div className="code-editor__action text-center mt-4">
-          <button className="bg-blue-600 text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300">
-            Run Code
-          </button>
-        </div>
+      
       </div>
 
       <p className="font-bold mt-4">Output:</p>
 
-      <pre className="bg-gray-100 p-4 rounded-lg overflow-auto">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
         <code>{`ArrayList: [Dog, Cat, Horse]`}</code>
       </pre>
 

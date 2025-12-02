@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaPriorityQueue(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
 
   return (
     <div className="editor-contents text-black">
@@ -46,7 +46,7 @@ export default function JavaPriorityQueue(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`PriorityQueue<Integer> numbers = new PriorityQueue<>();`}</code>
+        <code className="java hljs ">{`PriorityQueue<Integer> numbers = new PriorityQueue<>();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -80,7 +80,7 @@ export default function JavaPriorityQueue(): JSX.Element {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.PriorityQueue;
+          <code className="java hljs ">{`import java.util.PriorityQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -126,7 +126,7 @@ Updated PriorityQueue: [1, 4, 2]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.PriorityQueue;
+          <code className="java hljs ">{`import java.util.PriorityQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -168,7 +168,7 @@ Accessed Element: 1`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.PriorityQueue;
+          <code className="java hljs ">{`import java.util.PriorityQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -214,7 +214,7 @@ Removed Element Using poll(): 1`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.PriorityQueue;
+          <code className="java hljs ">{`import java.util.PriorityQueue;
 import java.util.Iterator;
 
 class Main {
@@ -285,7 +285,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.PriorityQueue;
+          <code className="java hljs ">{`import java.util.PriorityQueue;
 import java.util.Comparator;
 class Main {
     public static void main(String[] args) {

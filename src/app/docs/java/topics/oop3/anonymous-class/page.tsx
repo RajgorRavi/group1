@@ -21,7 +21,7 @@ export default function AnonymousClassPage() {
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Syntax</h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class OuterClass {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class OuterClass {
 
     // defining anonymous class
     object1 = new Type(parameterList) {
@@ -45,7 +45,7 @@ export default function AnonymousClassPage() {
         Example 1: Anonymous Class Extending a Class
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class Polygon {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class Polygon {
     public void display() {
         System.out.println("Inside the Polygon class");
     }
@@ -73,7 +73,7 @@ class Main {
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`Inside an anonymous class.`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Inside an anonymous class.`}</pre>
 
       <p className="text-gray-700">
         In this example, the anonymous class overrides the{" "}
@@ -84,7 +84,7 @@ class Main {
         Example 2: Anonymous Class Implementing an Interface
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`interface Polygon {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`interface Polygon {
     public void display();
 }
 
@@ -110,7 +110,7 @@ class Main {
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`Inside an anonymous class.`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Inside an anonymous class.`}</pre>
 
       <p className="text-gray-700">
         Here, the anonymous class implements the <code>Polygon</code> interface and
@@ -127,7 +127,7 @@ class Main {
         <li>Makes the code concise and readable.</li>
       </ul>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700 mt-4">{`Object obj = new Example() {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Object obj = new Example() {
     public void display() {
         System.out.println("Anonymous class overrides the method display().");
     }

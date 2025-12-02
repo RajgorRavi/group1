@@ -12,19 +12,19 @@ export default function JavaReflectionPage() {
       <ol className="list-decimal ml-6 text-gray-700">
         <li><strong>Using forName()</strong></li>
       </ol>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Class a = Class.forName("Dog");`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Class a = Class.forName("Dog");`}</pre>
       <ol start={2} className="list-decimal ml-6 text-gray-700">
         <li><strong>Using getClass()</strong></li>
       </ol>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Dog d1 = new Dog();
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Dog d1 = new Dog();
 Class b = d1.getClass();`}</pre>
       <ol start={3} className="list-decimal ml-6 text-gray-700">
         <li><strong>Using .class</strong></li>
       </ol>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Class c = Dog.class;`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Class c = Dog.class;`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Example: Class Reflection</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`class Animal {}
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class Animal {}
 
 public class Dog extends Animal {
   public void display() {
@@ -44,27 +44,27 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`Name: Dog
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Name: Dog
 Modifier: public
 Superclass: Animal`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Reflection of Methods</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Method[] methods = obj.getDeclaredMethods();
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Method[] methods = obj.getDeclaredMethods();
 for (Method m : methods) {
   System.out.println(m.getName());
 }`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Reflection of Fields</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Field field1 = obj.getField("type");
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Field field1 = obj.getField("type");
 field1.set(d1, "labrador");`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Reflection of Private Fields</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Field field1 = obj.getDeclaredField("color");
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Field field1 = obj.getDeclaredField("color");
 field1.setAccessible(true);
 field1.set(d1, "brown");`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">Reflection of Constructors</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Constructor[] constructors = obj.getDeclaredConstructors();
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`Constructor[] constructors = obj.getDeclaredConstructors();
 for (Constructor c : constructors) {
   System.out.println(c.getName());
   System.out.println(Modifier.toString(c.getModifiers()));

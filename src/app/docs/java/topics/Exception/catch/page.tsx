@@ -8,7 +8,7 @@ export default function JavacatchMultipleExceptions() {
       <p className="text-gray-700 dark:text-gray-300">Before Java 7, we had to write multiple <a href="/docs/java/topics/Exception/exceptions-handling" className="text-blue-600 ">exception handling </a> blocks for different types of exceptions, even when they contained duplicate code.</p>
 
       <h2 className="text-2xl md:text-3xl font-semibold mt-6 mb-3 text-black">Example 1: Multiple catch blocks</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">{`class Main {
   public static void main(String[] args) {
     try {
       int array[] = new int[10];
@@ -22,7 +22,7 @@ export default function JavacatchMultipleExceptions() {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto border border-gray-700">/ by zero</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto border ">/ by zero</pre>
 
       <p className="text-gray-700 dark:text-gray-300">Two exceptions may occur here:</p>
       <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300">
@@ -36,7 +36,7 @@ export default function JavacatchMultipleExceptions() {
       <p className="text-gray-700 dark:text-gray-300">Starting from Java 7, you can catch multiple <a href="/docs/java/topics/Exception/exceptions" className="text-blue-600 ">exception</a> in a single catch block using the <code>|</code> symbol.</p>
 
       <h3 className="text-xl font-semibold mt-4">Example 2: Multi-catch block</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">{`class Main {
   public static void main(String[] args) {
     try {
       int array[] = new int[10];
@@ -48,7 +48,7 @@ export default function JavacatchMultipleExceptions() {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto border border-gray-700">/ by zero</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto border ">/ by zero</pre>
 
       <p className="text-gray-700 dark:text-gray-300">This method reduces code duplication and produces smaller bytecode.</p>
       <p className="text-gray-700 dark:text-gray-300">Note: A multi-catch parameter is implicitly  <strong>final</strong>.</p>
@@ -58,7 +58,7 @@ export default function JavacatchMultipleExceptions() {
       <p className="text-gray-700 dark:text-gray-300">If exception types have a parent-child relationship, catching the base exception alone is allowed.</p>
 
       <h3 className="text-xl font-semibold mt-4">Example 3: Catching base exception</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">{`class Main {
   public static void main(String[] args) {
     try {
       int array[] = new int[10];
@@ -70,7 +70,7 @@ export default function JavacatchMultipleExceptions() {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto border border-gray-700">/ by zero</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto border ">/ by zero</pre>
 
       <p className="text-gray-700 dark:text-gray-300">All exceptions inherit from <code>Exception</code>, so catching the base class handles them all.</p>
 
@@ -79,7 +79,7 @@ export default function JavacatchMultipleExceptions() {
       <p className="text-gray-700 dark:text-gray-300">Java does not allow catching a superclass and its subclass in the same multi-catch block.</p>
 
       <h3 className="text-xl font-semibold mt-4">Example 4: Base + child (Invalid)</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">{`class Main {
   public static void main(String[] args) {
     try {
       int array[] = new int[10];
@@ -91,7 +91,7 @@ export default function JavacatchMultipleExceptions() {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-red-400">Output (Compilation Error)</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto border border-gray-700">Main.java:6: error: Alternatives in a multi-catch statement cannot be related by subclassing</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto border ">Main.java:6: error: Alternatives in a multi-catch statement cannot be related by subclassing</pre>
 
       <p className="text-gray-700 dark:text-gray-300">Since both <code>ArithmeticException</code> and <code>ArrayIndexOutOfBoundsException</code> are subclasses of <code>Exception</code>, this code is invalid.</p>
 

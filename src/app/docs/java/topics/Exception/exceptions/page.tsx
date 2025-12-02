@@ -99,7 +99,7 @@ export default function JavaExceptions() {
         Example: Basic Exception Demonstration
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700 overflow-x-auto text-sm sm:text-base mb-6">
+      <pre className="bg-gray-200  p-4 rounded-md border  overflow-x-auto text-sm sm:text-base mb-6">
 {`class Main {
     public static void main(String[] args) {
         try {
@@ -117,7 +117,7 @@ export default function JavaExceptions() {
         Output
       </h3>
 
-      <pre className="bg-gray-100 text-gray-900 p-3 rounded-md border border-gray-300 mb-6">
+      <pre className="bg-gray-200 text-gray-900 p-3 rounded-md border border-gray-300 mb-6">
 Exception occurred: / by zero
 Program continues...
       </pre>

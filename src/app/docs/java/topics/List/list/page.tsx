@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaList(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
 
   return (
     <div className="editor-contents text-black">
@@ -172,11 +172,7 @@ class Main {
     }
 }`}</code>
         </pre>
-        <div className="code-editor__action text-center mt-4">
-          <button className="bg-blue-600 text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300">
-            Run Code
-          </button>
-        </div>
+       
       </div>
 
       <p className="font-bold mt-4">Output</p>
@@ -223,11 +219,7 @@ class Main {
     }
 }`}</code>
         </pre>
-        <div className="code-editor__action text-center mt-4">
-          <button className="bg-blue-600 text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300">
-            Run Code
-          </button>
-        </div>
+      
       </div>
 
       <p className="font-bold mt-4">Output</p>

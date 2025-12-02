@@ -9,7 +9,7 @@ export default function NestedInnerClassPage() {
         known as a <strong>nested class</strong>.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-lg overflow-x-auto text-sm mb-6">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class OuterClass {
     // ...
     class NestedClass {
@@ -34,7 +34,7 @@ export default function NestedInnerClassPage() {
       </p>
 
       <h3 className="text-2xl font-semibold mb-2">Example 1: Inner Class</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-lg overflow-x-auto text-sm mb-6">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class CPU {
     double price;
 
@@ -80,7 +80,7 @@ public class Main {
         Accessing Outer Class Members
       </h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-lg overflow-x-auto text-sm mb-6">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Car {
     String carName;
     String carType;
@@ -140,7 +140,7 @@ public class Main {
 
       <h3 className="text-2xl font-semibold mb-2">Example 3: Static Nested Class</h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-lg overflow-x-auto text-sm mb-6">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class MotherBoard {
 
     static class USB {
@@ -165,7 +165,7 @@ public class Main {
         Example 4: Static Class Cannot Access Outer Members
       </h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-lg overflow-x-auto text-sm mb-6">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class MotherBoard {
     String model;
 
@@ -188,7 +188,7 @@ public class Main {
 }`}
       </pre>
 
-      <p className="bg-red-100 p-4 rounded-lg border border-red-300 mb-6">
+      <p className="bg-red-100 p-4 rounded-lg border border-red-300 mt-6">
         ❌ Error: non-static variable this cannot be referenced from a static
         context
       </p>

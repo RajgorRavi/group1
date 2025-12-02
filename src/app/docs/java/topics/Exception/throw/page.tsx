@@ -26,7 +26,7 @@ export default function Javathrowandthrows() {
         The <code>throws</code> keyword is used in a method declaration to specify exceptions that might occur within it.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
 
 class Main {
   public static void findFile() throws IOException {
@@ -44,13 +44,13 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl md:text-2xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`java.io.FileNotFoundException: test.txt (No such file or directory)`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`java.io.FileNotFoundException: test.txt (No such file or directory)`}</pre>
 
       <p>
         You can also declare multiple exceptions with <code>throws</code>:
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
 
 class Main {
   public static void findFile() throws NullPointerException, IOException, InvalidClassException {
@@ -73,7 +73,7 @@ class Main {
         The <code>throw</code> keyword is used to explicitly throw a single exception.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
   public static void divideByZero() {
     throw new ArithmeticException("Trying to divide by 0");
   }
@@ -84,13 +84,13 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl md:text-2xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`Exception in thread "main" java.lang.ArithmeticException: Trying to divide by 0
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`Exception in thread "main" java.lang.ArithmeticException: Trying to divide by 0
     at Main.divideByZero(Main.java:3)
     at Main.main(Main.java:7)`}</pre>
 
       <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-3">Throwing Checked Exception</h2>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
 
 class Main {
   public static void findFile() throws IOException {
@@ -108,7 +108,7 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl md:text-2xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`File not found`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`File not found`}</pre>
 
       <p>
         In the above example, the checked exception <a href="/docs/java/topics/Exception/exceptions" className="text-blue-600 "><code>IOException</code></a> must be declared with <code>throws</code> and handled with a <a href="/docs/java/topics/Exception/try" className="text-blue-600 "><code>try...catch</code></a> block.

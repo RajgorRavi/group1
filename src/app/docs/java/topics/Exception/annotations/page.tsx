@@ -8,13 +8,13 @@ export default function JavaAnnotationsPage() {
       <p className="text-gray-700">Java annotations are metadata for source code. They provide additional information to the compiler but do not affect program execution.</p>
 
       <p className="text-gray-700">Annotations start with <code>@</code>. Example syntax:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">@AnnotationName</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">@AnnotationName</pre>
 
       <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-3 text-black">@Override Annotation</h2>
       <p className="text-gray-700">Indicates a <a href="/docs/java/topics/oop1/Methods" className="text-blue-600 ">method</a> overrides a method from its superclass.</p>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Example 1: @Override Annotation</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`class Animal {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">{`class Animal {
   public void displayInfo() {
     System.out.println("I am an animal.");
   }
@@ -35,7 +35,7 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">I am a dog.</pre>
+      <pre className="bg-gray-200 p-4 rounded-md border ">I am a dog.</pre>
 
       <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-3 text-black">Annotation Formats</h2>
 
@@ -43,18 +43,18 @@ class Main {
       <p className="text-gray-700">Contain no elements. Example: <code>@Override</code></p>
 
       <h3 className="text-xl font-semibold mt-4 text-black">2. Single Element Annotations</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm border border-gray-700">@AnnotationName(value = "elementValue")</pre>
+      <pre className="bg-gray-200 p-4 rounded-md text-sm border ">@AnnotationName(value = "elementValue")</pre>
       <p className="text-gray-700">You can omit the element name if it's <code>value</code>:</p>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm border border-gray-700">@AnnotationName("elementValue")</pre>
+      <pre className="bg-gray-200 p-4 rounded-md text-sm border ">@AnnotationName("elementValue")</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">3. Multiple Element Annotations</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm border border-gray-700">@AnnotationName(element1 = "value1", element2 = "value2")</pre>
+      <pre className="bg-gray-200 p-4 rounded-md text-sm border ">@AnnotationName(element1 = "value1", element2 = "value2")</pre>
 
       <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-3 text-black">Annotation Placement</h2>
       <p className="text-gray-700">Annotations may be placed above declarations or directly on types.</p>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Example 2: @SuppressWarnings Annotation</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm border border-gray-700">{`import java.util.*;
+      <pre className="bg-gray-200 p-4 rounded-md text-sm border ">{`import java.util.*;
 
 class Main {
   @SuppressWarnings("unchecked")
@@ -70,12 +70,12 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-        <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`Word list => [programiz]`}</pre>
+        <pre className="bg-gray-200 p-4 rounded-md border ">{`Word list => [programiz]`}</pre>
 
       <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-3 text-black">2. Type Annotations</h2>
       <p className="text-gray-700">Introduced in Java 8; may appear anywhere a type is used.</p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm border border-gray-700">{`@NonNull String str;
+      <pre className="bg-gray-200 p-4 rounded-md text-sm border ">{`@NonNull String str;
 List<@NonNull String> values;
 new @Readonly ArrayList<>();
 (@Localized IOException)`}</pre>

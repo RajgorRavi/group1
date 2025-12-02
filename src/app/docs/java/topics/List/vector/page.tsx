@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaVector(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
 
   return (
     <div className="editor-contents text-black">
@@ -50,7 +50,7 @@ export default function JavaVector(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`Vector<Type> vector = new Vector<>();`}</code>
+        <code className="java hljs ">{`Vector<Type> vector = new Vector<>();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -58,7 +58,7 @@ export default function JavaVector(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// create Integer type vector
+        <code className="java hljs ">{`// create Integer type vector
 Vector<Integer> vector = new Vector<>();
 
 // create String type vector
@@ -87,7 +87,7 @@ Vector<String> vector = new Vector<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Vector;
+          <code className="java hljs ">{`import java.util.Vector;
 
 class Main {
     public static void main(String[] args) {
@@ -134,7 +134,7 @@ New Vector: [Crocodile, Dog, Horse, Cat]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Iterator;
+          <code className="java hljs ">{`import java.util.Iterator;
 import java.util.Vector;
 
 class Main {
@@ -183,7 +183,7 @@ Vector: Dog, Horse, Cat,`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Vector;
+          <code className="java hljs ">{`import java.util.Vector;
 
 class Main {
     public static void main(String[] args) {
