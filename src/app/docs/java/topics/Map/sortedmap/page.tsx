@@ -72,7 +72,7 @@ class Main {
       </pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`SortedMap: {One=1, Two=2}
 First Key: One
 Last Key: Two

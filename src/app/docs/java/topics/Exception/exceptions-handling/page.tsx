@@ -22,7 +22,7 @@ export default function JavaExceptionHandling() {
       <h2 className="text-2xl font-semibold mt-10 mb-3">1. Java try...catch Block</h2>
       <p>The try...catch block is the most common way to handle exceptions in Java.</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
   // code that may cause an exception
 } catch (Exception e) {
   // code that handles the exception
@@ -30,7 +30,7 @@ export default function JavaExceptionHandling() {
 
       <h3 className="text-xl font-semibold mt-6">Example: Exception handling using try...catch</h3>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
   public static void main(String[] args) {
 
     try {
@@ -44,7 +44,7 @@ export default function JavaExceptionHandling() {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`ArithmeticException => / by zero`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`ArithmeticException => / by zero`}</pre>
 
       <p>
         Here, Java skips the remaining code in the try block when an exception occurs.
@@ -58,7 +58,7 @@ export default function JavaExceptionHandling() {
         or not. It is often used for closing files, connections, or cleanup tasks.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
   // code
 }
 catch (Exception e) {
@@ -70,7 +70,7 @@ finally {
 
       <h3 className="text-xl font-semibold mt-6">Example: Using finally Block</h3>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
   public static void main(String[] args) {
     try {
       int divideByZero = 5 / 0;
@@ -85,7 +85,7 @@ finally {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`ArithmeticException => / by zero
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`ArithmeticException => / by zero
 This is the finally block`}</pre>
 
       <p>
@@ -100,7 +100,7 @@ This is the finally block`}</pre>
         The <code>throw</code> keyword is used to manually throw an exception.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
   public static void divideByZero() {
     throw new ArithmeticException("Trying to divide by 0");
   }
@@ -111,7 +111,7 @@ This is the finally block`}</pre>
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`Exception in thread "main" java.lang.ArithmeticException: Trying to divide by 0`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`Exception in thread "main" java.lang.ArithmeticException: Trying to divide by 0`}</pre>
 
       <h3 className="text-xl font-semibold mt-6">Using throws</h3>
       <p>
@@ -119,7 +119,7 @@ This is the finally block`}</pre>
         generate.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
 
 class Main {
   public static void findFile() throws IOException {
@@ -138,7 +138,7 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`java.io.FileNotFoundException: test.txt (The system cannot find the file specified)`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`java.io.FileNotFoundException: test.txt (The system cannot find the file specified)`}</pre>
 
       <p className="mt-6">
         If a method does not handle exceptions internally, it must declare them using

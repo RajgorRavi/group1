@@ -11,14 +11,14 @@ export default function Javatryandcatch() {
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">Syntax of try...catch</h2>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
   // code
 } catch(Exception e) {
   // handle exception
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-6">Example: Java try...catch block</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
   public static void main(String[] args) {
     try {
       int divideByZero = 5 / 0;
@@ -30,7 +30,7 @@ export default function Javatryandcatch() {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`ArithmeticException => / by zero`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`ArithmeticException => / by zero`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">try...finally Block</h2>
       <p>
@@ -38,7 +38,7 @@ export default function Javatryandcatch() {
         or not.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class Main {
   public static void main(String[] args) {
     try {
       int divideByZero = 5 / 0;
@@ -49,7 +49,7 @@ export default function Javatryandcatch() {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`Finally block is always executed
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`Finally block is always executed
 Exception in thread "main" java.lang.ArithmeticException: / by zero`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">try...catch...finally Block</h2>
@@ -58,7 +58,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero`}</pre>
         to ensure cleanup code is executed.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`import java.io.*;
 
 class ListOfNumbers {
   private int[] list = {5, 6, 8, 9, 2};
@@ -92,7 +92,7 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`Entering try statement
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`Entering try statement
 Exception => Index 5 out of bounds for length 5
 Closing PrintWriter`}</pre>
 
@@ -101,7 +101,7 @@ Closing PrintWriter`}</pre>
         You can use multiple catch blocks to handle different exceptions differently.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class ListOfNumbers {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`class ListOfNumbers {
   public int[] arr = new int[10];
   public void writeList() {
     try {
@@ -122,14 +122,14 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4">Output</h3>
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`IndexOutOfBoundsException => Index 10 out of bounds for length 10`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`IndexOutOfBoundsException => Index 10 out of bounds for length 10`}</pre>
 
       <h2 className="text-2xl font-semibold mt-8 mb-3">Catching Multiple Exceptions</h2>
       <p>
         Java SE 7+ allows catching multiple exceptions in a single catch block.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try {
   // code
 } catch (ExceptionType1 | ExceptionType2 ex) {
   // handle multiple exceptions
@@ -141,7 +141,7 @@ class Main {
         the statement. This is also called automatic resource management.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try (PrintWriter out = new PrintWriter(new FileWriter("OutputFile.txt"))) {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm md:text-base">{`try (PrintWriter out = new PrintWriter(new FileWriter("OutputFile.txt"))) {
   // use the resource
 } catch (Exception e) {
   // handle exception

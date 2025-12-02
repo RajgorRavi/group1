@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaArrayBlockingQueue(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
   const noteClass = "bg-yellow-100 p-4 rounded-lg border border-yellow-300 mt-4"; // Custom class for note-tip
 
   return (
@@ -35,7 +35,7 @@ export default function JavaArrayBlockingQueue(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`ArrayBlockingQueue<Type> animal = new ArrayBlockingQueue<>(int capacity);`}</code>
+        <code className="java hljs ">{`ArrayBlockingQueue<Type> animal = new ArrayBlockingQueue<>(int capacity);`}</code>
       </pre>
 
       <p className="mb-4">
@@ -47,7 +47,7 @@ export default function JavaArrayBlockingQueue(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// Creating String type ArrayBlockingQueue with size 5
+        <code className="java hljs ">{`// Creating String type ArrayBlockingQueue with size 5
 ArrayBlockingQueue<String> animals = new ArrayBlockingQueue<>(5);
 
 // Creating Integer type ArrayBlockingQueue with size 5
@@ -88,7 +88,7 @@ ArrayBlockingQueue<Integer> age = new ArrayBlockingQueue<>(5);`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.ArrayBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.ArrayBlockingQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -127,7 +127,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.ArrayBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.ArrayBlockingQueue;
 import java.util.Iterator;
 
 class Main {
@@ -181,7 +181,7 @@ ArrayBlockingQueue Elements: Dog, Cat, Horse,`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.ArrayBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.ArrayBlockingQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -241,7 +241,7 @@ Updated ArrayBlockingQueue: []`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.ArrayBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.ArrayBlockingQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -281,7 +281,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.ArrayBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.ArrayBlockingQueue;
 
 class Main {
     public static void main(String[] args) {

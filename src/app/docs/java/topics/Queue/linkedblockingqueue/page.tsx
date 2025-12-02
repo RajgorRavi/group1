@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaLinkedBlockingQueue(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
 
   return (
     <div className="editor-contents text-black">
@@ -32,7 +32,7 @@ export default function JavaLinkedBlockingQueue(): JSX.Element {
       <p className="mb-4 font-semibold">1. Without the initial capacity</p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`LinkedBlockingQueue<Type> animal = new LinkedBlockingQueue<>();`}</code>
+        <code className="java hljs ">{`LinkedBlockingQueue<Type> animal = new LinkedBlockingQueue<>();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -42,7 +42,7 @@ export default function JavaLinkedBlockingQueue(): JSX.Element {
       <p className="mb-4 font-semibold">2. With the initial capacity</p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`LinkedBlockingQueue<Type> animal = new LinkedBlockingQueue<>(int capacity);`}</code>
+        <code className="java hljs ">{`LinkedBlockingQueue<Type> animal = new LinkedBlockingQueue<>(int capacity);`}</code>
       </pre>
 
       <p className="mb-4">
@@ -54,7 +54,7 @@ export default function JavaLinkedBlockingQueue(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// Creating String type LinkedBlockingQueue with size 5
+        <code className="java hljs ">{`// Creating String type LinkedBlockingQueue with size 5
 LinkedBlockingQueue<String> animals = new LinkedBlockingQueue<>(5);
 
 // Creating Integer type LinkedBlockingQueue with size 5
@@ -92,7 +92,7 @@ LinkedBlockingQueue<Integer> age = new LinkedBlockingQueue<>(5);`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.LinkedBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.LinkedBlockingQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -131,7 +131,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.LinkedBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.LinkedBlockingQueue;
 import java.util.Iterator;
 
 class Main {
@@ -185,7 +185,7 @@ LinkedBlockingQueue Elements: Dog, Cat, Horse,`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.LinkedBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.LinkedBlockingQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -245,7 +245,7 @@ Updated LinkedBlockingQueue: []`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.LinkedBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.LinkedBlockingQueue;
 
 class Main {
     public static void main(String[] args) {
@@ -285,7 +285,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.LinkedBlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.LinkedBlockingQueue;
 
 class Main {
     public static void main(String[] args) {

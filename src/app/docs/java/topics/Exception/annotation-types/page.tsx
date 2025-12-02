@@ -31,12 +31,12 @@ export default function JavaAnnotationTypes() {
         field, etc) is deprecated and has been replaced by a newer element.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@Deprecated
 accessModifier returnType deprecatedMethodName() { ... }`
 }</pre>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `class Main {
   /**
    * @deprecated
@@ -56,7 +56,7 @@ accessModifier returnType deprecatedMethodName() { ... }`
       <h3 className="text-2xl font-semibold mt-6 mb-2">@Override</h3>
       <p className="mb-3">Specifies that a method of a subclass overrides the method of the superclass.</p>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `class Animal {
   public void display(){
     System.out.println("I am an animal");
@@ -87,7 +87,7 @@ class Main {
         The @SuppressWarnings annotation instructs the compiler to suppress warnings.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `class Main {
   @Deprecated
   public static void deprecatedMethod() { 
@@ -105,7 +105,7 @@ class Main {
       <h3 className="text-2xl font-semibold mt-6 mb-2">@SafeVarargs</h3>
       <p className="mb-3">Indicates that a method using varargs performs safe operations.</p>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `import java.util.*;
 
 class Main {
@@ -131,7 +131,7 @@ class Main {
       <h3 className="text-2xl font-semibold mt-6 mb-2">@FunctionalInterface</h3>
       <p className="mb-3">Marks an interface with a single abstract method.</p>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@FunctionalInterface
 public interface MyFuncInterface{
   public void firstMethod();
@@ -141,7 +141,7 @@ public interface MyFuncInterface{
       <h2 className="text-3xl font-semibold mt-10 mb-4">2. Custom Annotations</h2>
       <p className="mb-4">We can create our own annotations using @interface.</p>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@interface MyCustomAnnotation {
   String value() default "default value";
 }
@@ -163,28 +163,28 @@ class Main {
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">@Retention</h3>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@Retention(RetentionPolicy.RUNTIME)
 public @interface MyCustomAnnotation {}`
 }</pre>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">@Documented</h3>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@Documented
 public @interface MyCustomAnnotation {}`
 }</pre>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">@Target</h3>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@Target(ElementType.METHOD)
 public @interface MyCustomAnnotation {}`
 }</pre>
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">@Inherited</h3>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@Inherited
 public @interface MyCustomAnnotation {}
 
@@ -196,7 +196,7 @@ public class ChildClass extends ParentClass {}`
 
       <h3 className="text-2xl font-semibold mt-6 mb-2">@Repeatable</h3>
 
-      <pre className="bg-black text-white p-4 rounded-lg overflow-x-auto text-sm">{
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto text-sm">{
 `@Repeatable(Universities.class)
 public @interface University {
   String name();

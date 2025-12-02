@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaDequeInterface(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
 
   return (
     <div className="editor-contents text-black">
@@ -55,7 +55,7 @@ export default function JavaDequeInterface(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// Array implementation of Deque
+        <code className="java hljs ">{`// Array implementation of Deque
 Deque<String> animal1 = new ArrayDeque<>();
 
 // LinkedList implementation of Deque
@@ -121,7 +121,7 @@ Deque<String> animal2 = new LinkedList<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.Deque;
+          <code className="java hljs ">{`import java.util.Deque;
 import java.util.ArrayDeque;
 
 class Main {

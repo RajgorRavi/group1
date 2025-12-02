@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaBlockingQueue(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
   const noteClass = "bg-yellow-100 p-4 rounded-lg border border-yellow-300 mt-4"; // Custom class for note-tip
 
   return (
@@ -52,7 +52,7 @@ export default function JavaBlockingQueue(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// Array implementation of BlockingQueue
+        <code className="java hljs ">{`// Array implementation of BlockingQueue
 BlockingQueue<String> animal1 = new ArrayBlockingQueue<>();
 
 // LinkedList implementation of BlockingQueue
@@ -95,8 +95,8 @@ BlockingQueue<String> animal2 = new LinkedBlockingQueue<>();`}</code>
            The <code>offer()</code> and <code>poll()</code> methods can be used with timeouts.
         </p>
 
-        <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`offer(value, 100, milliseconds)`}</code>
+        <pre className={noteClass}>
+          <code className="java hljs ">{`offer(value, 100, milliseconds)`}</code>
         </pre>
 
         <p className="mb-2">
@@ -135,7 +135,7 @@ BlockingQueue<String> animal2 = new LinkedBlockingQueue<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.concurrent.BlockingQueue;
+          <code className="java hljs ">{`import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ArrayBlockingQueue;
 
 class Main {

@@ -3,7 +3,7 @@ import React from "react";
 export default function JavaLinkedList(): JSX.Element {
   // Common Tailwind classes for code block and output styling
   const codeBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto max-h-[600px]";
-  const outputBlockClass = "bg-gray-100 p-4 rounded-lg overflow-auto";
+  const outputBlockClass = "bg-gray-200 p-4 rounded-lg overflow-auto";
 
   // Note: Using an approximate yellow background for the final Note section
   const noteBlockClass = "bg-yellow-100 p-4 rounded-lg border border-yellow-300 mt-4";
@@ -40,7 +40,7 @@ export default function JavaLinkedList(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`LinkedList<Type> linkedList = new LinkedList<>();`}</code>
+        <code className="java hljs ">{`LinkedList<Type> linkedList = new LinkedList<>();`}</code>
       </pre>
 
       <p className="mb-4">
@@ -48,7 +48,7 @@ export default function JavaLinkedList(): JSX.Element {
       </p>
 
       <pre className={codeBlockClass}>
-        <code className="java hljs text-green-700">{`// create Integer type linked list
+        <code className="java hljs ">{`// create Integer type linked list
 LinkedList<Integer> linkedList = new LinkedList<>();
 
 // create String type linked list
@@ -61,7 +61,7 @@ LinkedList<String> linkedList = new LinkedList<>();`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 
 class Main {
   public static void main(String[] args){
@@ -133,7 +133,7 @@ class Main {
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 
 class Main {
   public static void main(String[] args){
@@ -175,7 +175,7 @@ Updated LinkedList: [Dog, Horse, Cat, Cow]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 
 class Main {
   public static void main(String[] args) {
@@ -220,7 +220,7 @@ Element at index 1: Java`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 
 class Main {
   public static void main(String[] args) {
@@ -262,7 +262,7 @@ Updated LinkedList: [Java, Python, JavaScript, Kotlin]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 
 class Main {
   public static void main(String[] args) {
@@ -395,7 +395,7 @@ Updated LinkedList: [Java, JavaScript, Kotlin]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 import java.util.Queue;
 
 class Main {
@@ -441,7 +441,7 @@ LinkedList after offer(): [Java, C, Swift]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 import java.util.Deque;
 
 class Main {
@@ -491,7 +491,7 @@ LinkedList after removeLast(): [Cow]`}</code>
 
       <div className="code-editor">
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`import java.util.LinkedList;
+          <code className="java hljs ">{`import java.util.LinkedList;
 
 class Main {
     public static void main(String[] args) {
@@ -566,14 +566,14 @@ Cow, Cat, Dog,`}</code>
 
       <hr className="my-6 border-gray-300" />
 
-      <div className={noteBlockClass}>
+      <div className={codeBlockClass}>
         <p className="font-bold mb-2">Note:</p>
         <p className="mb-2">
            We can also create a <code>LinkedList</code> using interfaces in Java. For example:
         </p>
 
         <pre className={codeBlockClass}>
-          <code className="java hljs text-green-700">{`// create linkedlist using List
+          <code className="java hljs ">{`// create linkedlist using List
 List<String> animals1 = new LinkedList<>();
 
 // creating linkedlist using Queue

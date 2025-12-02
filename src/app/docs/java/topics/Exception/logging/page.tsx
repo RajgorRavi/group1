@@ -46,7 +46,7 @@ export default function JavaLogging() {
 
       <p className="text-black">Example:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-x-auto">{`
 Logger logger = Logger.getLogger("newLoggerName");
       `}</pre>
 
@@ -57,7 +57,7 @@ Logger logger = Logger.getLogger("newLoggerName");
 
       <p className="text-black">Convention:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 Logger logger = Logger.getLogger(MyClass.class.getName());
       `}</pre>
 
@@ -95,7 +95,7 @@ Logger logger = Logger.getLogger(MyClass.class.getName());
         Logging the message
       </h3>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 logger.setLevel(Level.FINE);
       `}</pre>
 
@@ -105,13 +105,13 @@ logger.setLevel(Level.FINE);
 
       <p className="text-black">Logging example:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 logger.log(Level.INFO, "This is INFO log level message");
       `}</pre>
 
       <p className="text-black">Shorthand methods:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 logger.info("This is INFO log level message");
 logger.warning("This is WARNING log level message");
       `}</pre>
@@ -123,7 +123,7 @@ logger.warning("This is WARNING log level message");
         to pass.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 // set a filter
 logger.setFilter(filter);
 
@@ -157,20 +157,20 @@ Filter filter = logger.getFilter();
 
       <p className="text-black mt-4">Add handler:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 Handler handler = new ConsoleHandler();
 logger.addHandler(handler);
       `}</pre>
 
       <p className="text-black">Remove handler:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 logger.removeHandler(handler);
       `}</pre>
 
       <p className="text-black">Get handlers:</p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 Handler[] handlers = logger.getHandlers();
       `}</pre>
 
@@ -180,7 +180,7 @@ Handler[] handlers = logger.getHandlers();
         Formatters convert log records into human-readable or XML format.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 // formats to string
 handler.setFormatter(new SimpleFormatter());
 
@@ -196,7 +196,7 @@ handler.setFormatter(new XMLFormatter());
         LogManager maintains global logging configuration and logger instances.
       </p>
 
-      <pre className="bg-black text-white p-4 rounded-md overflow-x-auto">{`
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto">{`
 LogManager manager = new LogManager();
       `}</pre>
 

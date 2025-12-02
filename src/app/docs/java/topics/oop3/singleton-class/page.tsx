@@ -28,7 +28,7 @@ export default function SingletonClassPage() {
         Example: Java Singleton Class Syntax
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`class SingletonExample {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class SingletonExample {
 
     // private field that refers to the object
     private static SingletonExample singleObject;
@@ -62,7 +62,7 @@ export default function SingletonClassPage() {
 
       <h3 className="text-xl font-semibold mt-4 text-black">Example: Singleton Database Class</h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`class Database {
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`class Database {
     private static Database dbObject;
 
     private Database() {      
@@ -97,7 +97,7 @@ class Main {
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`You are now connected to the database.`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">{`You are now connected to the database.`}</pre>
 
       <p className="text-gray-700">
         In this example:

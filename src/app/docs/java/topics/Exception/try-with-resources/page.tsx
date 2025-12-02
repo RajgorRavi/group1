@@ -14,7 +14,7 @@ export default function Javatrywithresources() {
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-3 text-black">Syntax</h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`try (resource declaration) {
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">{`try (resource declaration) {
   // use of the resource
 } catch (ExceptionType e1) {
   // catch block
@@ -32,7 +32,7 @@ export default function Javatrywithresources() {
       <h2 className="text-2xl font-semibold mt-8 mb-3 text-black">
         Example 1: try-with-resources
       </h2>
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md overflow-x-auto text-sm border ">{`import java.io.*;
 
 class Main {
   public static void main(String[] args) {
@@ -50,12 +50,12 @@ class Main {
       <h3 className="text-xl font-semibold mt-4 text-black">
         Output (file not found)
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`IOException in try-with-resources block =>test.txt (No such file or directory)`}</pre>
+      <pre className="bg-gray-200 p-4 rounded-md border ">{`IOException in try-with-resources block =>test.txt (No such file or directory)`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">
         Output (file exists)
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`Entering try-with-resources block
+      <pre className="bg-gray-200 p-4 rounded-md border ">{`Entering try-with-resources block
 Line =>test line`}</pre>
 
       <p className="text-gray-700">
@@ -75,7 +75,7 @@ Line =>test line`}</pre>
       <h3 className="text-xl font-semibold mt-4 text-black">
         Retrieving suppressed exceptions
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`catch(IOException e) {
+      <pre className="bg-gray-200 p-4 rounded-md text-sm overflow-x-auto border ">{`catch(IOException e) {
   System.out.println("Thrown exception=>" + e.getMessage());
   Throwable[] suppressedExceptions = e.getSuppressed();
   for (int i = 0; i < suppressedExceptions.length; i++) {
@@ -97,7 +97,7 @@ Line =>test line`}</pre>
       <h3 className="text-xl font-semibold mt-4 text-black">
         Example 2: closing resource using finally block
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md text-sm overflow-x-auto border ">{`import java.io.*;
 
 class Main {
   public static void main(String[] args) {
@@ -126,7 +126,7 @@ class Main {
 }`}</pre>
 
       <h3 className="text-xl font-semibold mt-4 text-black">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">{`Entering try block
+      <pre className="bg-gray-200 p-4 rounded-md border ">{`Entering try block
 Line =>line from test.txt file
 Entering finally block`}</pre>
 
@@ -144,7 +144,7 @@ Entering finally block`}</pre>
       <h3 className="text-xl font-semibold mt-4 text-black">
         Example 3: multiple resources
       </h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`import java.io.*;
+      <pre className="bg-gray-200 p-4 rounded-md text-sm overflow-x-auto border ">{`import java.io.*;
 import java.util.*;
 
 class Main {
@@ -171,7 +171,7 @@ class Main {
         as long as they are effectively final.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">{`Scanner scanner = new Scanner(new File("testRead.txt"));
+      <pre className="bg-gray-200 p-4 rounded-md text-sm overflow-x-auto border ">{`Scanner scanner = new Scanner(new File("testRead.txt"));
 try (scanner) {
   // code
 }`}</pre>

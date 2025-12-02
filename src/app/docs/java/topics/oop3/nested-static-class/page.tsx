@@ -33,7 +33,7 @@ export default function NestedStaticClassPage() {
         static and non-static fields and <a href="/docs/java/topics/oop1/Methods" className="text-blue-600 ">methods</a>.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Animal {
   static class Mammal {
     // static and non-static members of Mammal
@@ -51,7 +51,7 @@ export default function NestedStaticClassPage() {
         Example: Static Nested Class
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Animal {
 
   // inner class
@@ -86,7 +86,7 @@ class Main {
       </pre>
 
       <h3 className="text-xl font-semibold text-black mt-4">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`I am a reptile.
 I am a mammal.`}
       </pre>
@@ -109,7 +109,7 @@ I am a mammal.`}
         Example: Accessing Non-static Members
       </h3>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md text-sm overflow-x-auto border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`class Animal {
   static class Mammal {
     public void displayInfo() {
@@ -142,7 +142,7 @@ class Main {
       </pre>
 
       <h3 className="text-xl font-semibold text-black mt-4">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`Main.java:28: error: cannot find symbol
     mammal.eat();
           ^
@@ -162,7 +162,7 @@ class Main {
         Only nested classes can be static. Java does not allow static top-level classes.
       </p>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`static class Animal {
   public static void displayInfo() {
     System.out.println("I am an animal");
@@ -177,7 +177,7 @@ class Main {
       </pre>
 
       <h3 className="text-xl font-semibold text-black mt-4">Output</h3>
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`Main.java:1: error: modifier static not allowed here
 static class Animal {
        ^

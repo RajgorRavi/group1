@@ -26,7 +26,7 @@ export default function JavaConcurrentMap() {
         How to Use ConcurrentMap?
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700 overflow-x-auto text-sm sm:text-base mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`// ConcurrentMap implementation using ConcurrentHashMap
 ConcurrentMap<Key, Value> numbers = new ConcurrentHashMap<>();`}
       </pre>
@@ -56,7 +56,7 @@ ConcurrentMap<Key, Value> numbers = new ConcurrentHashMap<>();`}
         Implementation Example
       </h2>
 
-      <pre className="bg-gray-900 text-white p-4 rounded-md border border-gray-700 overflow-x-auto text-sm sm:text-base mb-4">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 {`import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -84,7 +84,7 @@ class Main {
 
       <h3 className="text-lg sm:text-xl font-semibold mb-2 text-black">Output</h3>
 
-      <pre className="bg-gray-900 text-white p-3 rounded-md border border-gray-300 mb-6">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto">
 ConcurrentMap: {`{One=1, Two=2, Three=3}`}
 Accessed Value: 1
 Removed Value: 2
